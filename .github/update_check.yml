@@ -1,0 +1,62 @@
+name: Collect daily status
+
+on:
+  pull_request:
+  push:
+     branches:
+       - main
+     paths:
+       - '.github/workflows/update_check.yml'
+       - 'check_websites'
+  schedule:
+    - cron: "0 6 * * *"
+
+  workflow_dispatch:
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Micromamba
+        uses: mamba-org/setup-micromamba@v2
+        with:
+          init-shell: bash
+          environment-file: environment.yml
+
+
+      - name: check websites for status
+        shell: bash -l {0}
+        run: >
+          python check_websites.py
+
+      - name: Get current date
+        run: echo "NOW=$(date -u)" >> ${GITHUB_ENV}
+
+      - name: Create Pull Request
+        if: github.ref == 'refs/heads/main'
+        id: cpr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Latest data: ${{ env.NOW }}"
+          branch: update-webpage
+          delete-branch: true
+          title: "[metrics-ci] webpage auto-update"
+          body: |
+            Metrics Webpage auto-udpate.
+          labels: |
+            Bot
+          assignees: |
+            MathewBiddle
+          reviewers: |
+            MathewBiddle
+
+      - name: Check outputs
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"

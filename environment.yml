@@ -1,0 +1,9 @@
+name: check_websites
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pandas
+  - requests
+  - tzlocal
+  - numpy
