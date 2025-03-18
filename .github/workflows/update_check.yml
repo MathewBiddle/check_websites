@@ -7,7 +7,7 @@ on:
        - main
      paths:
        - '.github/workflows/update_check.yml'
-       - 'check_websites'
+       - 'check_websites.py'
   schedule:
     - cron: "0 6 * * *"
 
