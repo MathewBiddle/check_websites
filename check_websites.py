@@ -4,35 +4,12 @@ from datetime import datetime
 from requests.exceptions import RequestException
 import pandas as pd
 import numpy as np
+from ftplib import FTP
+import socket
 
-# List of NOAA URLs from the table above
-urls = [
-    "https://data.noaa.gov",
-    "https://www.ncdc.noaa.gov/cdo-web/",
-    "https://www.ncei.noaa.gov/",
-    "https://www.weather.gov/",
-    "https://www.fisheries.noaa.gov/resources/tech-and-tools",
-    "https://tidesandcurrents.noaa.gov/",
-    "https://coastwatch.noaa.gov/",
-    "https://coris.noaa.gov/",
-    "https://coast.noaa.gov/digitalcoast/",
-    "https://registry.opendata.aws/noaa-swdi/",
-    "https://www.nhc.noaa.gov/data/",
-    "https://nomads.ncep.noaa.gov/",
-    "https://ioos.noaa.gov/data/access-ioos-data/",
-    "https://gml.noaa.gov/data/data.php",
-    "https://nsidc.org/data/explore-data",
-    "https://www.ncdc.noaa.gov/stormevents/",
-    "https://www.class.noaa.gov/",
-    "https://clearinghouse.marinedebris.noaa.gov/",
-    "https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/",
-    "https://data.noaa.gov/datasetsearch/",
-    "https://api.weather.gov/",
-    "ftp://ftp.ncdc.noaa.gov/pub/data/",  # FTP URL (must be check manually)
-    "https://www.nesdis.noaa.gov/data-research-services/data-collections"
-]
+df = pd.read_json('websites.json')
 
-df = pd.DataFrame({'url':urls})
+df.drop_duplicates(subset='URL', inplace=True)
 
 # Get the local timezone dynamically
 local_tz = tzlocal.get_localzone()
@@ -40,19 +17,43 @@ local_tz = tzlocal.get_localzone()
 # Get current date and time in the local timezone
 current_datetime = datetime.now(local_tz).strftime("%Y-%m-%dT%H:%M %Z")
 
+def check_ftp_status(host):
+    """
+    Checks the status of an anonymous FTP site.
+
+    Args:
+        host (str): The hostname or IP address of the FTP server.
+
+    Returns:
+        bool: True if the FTP server is accessible, False otherwise.
+    """
+    try:
+        ftp = FTP(host, timeout=5)  # Set a timeout to avoid indefinite waiting
+        ftp.login() # Attempts anonymous login by default
+        ftp.retrlines('LIST')  # Attempt a simple command to check connection
+        ftp.quit()
+        return True
+    except (socket.timeout, OSError) as e:
+        print(f"Error connecting to {host}: {e}")
+        return f'{e}'#False
+    except Exception as e:
+         print(f"An unexpected error occurred: {e}")
+         return f'{e}'#False
+
 # Function to check URL availability
 def check_url(url):
     if url.startswith("ftp"):
-        return np.nan
+        return check_ftp_status(url)#np.nan
     try:
         response = requests.head(url, allow_redirects=True, timeout=20)
         return f'{response.status_code}'
     except RequestException as e:
         return f'{e}'
 
-for url in df['url']:
+for url in df['URL']:
     status = check_url(url)
+    print(f'{url}: {status}')
     column = f'status_{current_datetime}'
-    df.loc[df['url']==url,column] = [status]
+    df.loc[df['URL']==url,column] = [status]
 
-df.to_csv('website_status.csv', index=False)
+df.to_csv('website_status.csv', columns=['URL', column], index=False)
