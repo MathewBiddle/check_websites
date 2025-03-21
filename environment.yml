@@ -8,3 +8,4 @@ dependencies:
   - tzlocal
   - numpy
   - ipykernel
+  - jinja2
