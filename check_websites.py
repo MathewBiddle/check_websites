@@ -7,9 +7,21 @@ import numpy as np
 from ftplib import FTP
 import socket
 
-df = pd.read_json('websites.json')
 
-df.drop_duplicates(subset='URL', inplace=True)
+df_local = pd.read_json('websites.json')
+df_local.drop_duplicates(subset='URL', inplace=True)
+
+url = 'https://github.com/NOAA-CEFI-Portal/CEFI-info-hub-list/raw/refs/heads/main/data/cefi_list.json'
+
+response = requests.get(url)
+data = response.json()
+
+df_cefi = pd.DataFrame(data['lists'])
+
+df_cefi.rename(columns={'url':'URL'}, inplace=True)
+df_cefi.drop_duplicates(subset='URL', inplace=True)
+
+df = pd.concat([df_local, df_cefi])
 
 # Get the local timezone dynamically
 local_tz = tzlocal.get_localzone()
