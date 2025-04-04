@@ -1,4 +1,4 @@
-URL,status_2025-04-04T19:07 UTC
+URL,status_2025-04-04T20:10 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -56,7 +56,7 @@ https://researchprojects.noaa.gov,200
 https://pier.seagrant.noaa.gov,200
 https://drought.gov,200
 https://gsl.noaa.gov/fire-wx/fire-weather-testbed,200
-https://data.pmel.noaa.gov/aclim/las/UI.html,"HTTPSConnectionPool(host='data.pmel.noaa.gov', port=443): Max retries exceeded with url: /aclim/las/UI.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fe064712490>, 'Connection to data.pmel.noaa.gov timed out. (connect timeout=20)'))"
+https://data.pmel.noaa.gov/aclim/las/UI.html,200
 http://portal.aoos.org/,200
 https://portal.atn.ioos.us/,200
 https://portal.aoos.org,200
@@ -100,7 +100,7 @@ https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
 http://hfrnet.ucsd.edu/thredds/catalog.html,200
 https://www.aoml.noaa.gov/hurricane-research-division/,200
-https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7fe064713390>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
+https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7fdd1418efd0>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
 https://ioos.us,200
 http://www.caricoos.org/drupal/,200
 http://data.cencoos.org/,200
