@@ -4,11 +4,14 @@
 name: Create and Deploy Prod HTML site
 # Includes building automatically when either of the relevant JSON files update on the main branch or on the push of a button
 on:
-  pull_request:
   workflow_dispatch:
   push:
     branches:
       - main
+    paths:
+       - '.github/workflows/update_check.yml'
+       - '.github/workflows/website_create_and_deploy.yml'
+       - 'website_status.csv'
 
 jobs:
   build:
