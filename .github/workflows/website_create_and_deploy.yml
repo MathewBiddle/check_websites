@@ -4,10 +4,10 @@
 name: Create and Deploy Prod HTML site
 # Includes building automatically when either of the relevant JSON files update on the main branch or on the push of a button
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   build:
