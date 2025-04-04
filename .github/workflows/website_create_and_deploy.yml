@@ -8,10 +8,6 @@ on:
   push:
     branches:
       - main
-    paths:
-       - '.github/workflows/update_check.yml'
-       - '.github/workflows/website_create_and_deploy.yml'
-       - 'website_status.csv'
 
 jobs:
   build:
