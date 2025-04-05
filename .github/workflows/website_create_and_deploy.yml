@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-         token: ${{ steps.generate_token.outputs.token }}
+         token: ${{ secrets.API_TOKEN_GITHUB }}
     - name: Setup Micromamba
       uses: mamba-org/setup-micromamba@v2
       with:
