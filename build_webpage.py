@@ -8,8 +8,8 @@ import pandas as pd
 def write_html_index(template, configs):
     root = os.path.dirname(os.path.abspath(__file__))
     # root = path to output directory
-    os.makedirs(os.path.join(root, "deploy"), exist_ok=True)
-    filename = os.path.join(root, "deploy", "table.html")
+    os.makedirs(os.path.join(root, "docs"), exist_ok=True)
+    filename = os.path.join(root, "docs", "table.html")
     with open(filename, "w", encoding="utf-8") as fh:
         fh.write(template.render(configs=configs))
 
