@@ -33,6 +33,11 @@ jobs:
         shell: bash -l {0}
         run: >
           python check_websites.py
+        
+      - name: build website table
+        shell: bash -l {0}
+        run: >
+            python build_webpage.py
 
       - name: Get current date
         run: echo "NOW=$(date -u)" >> ${GITHUB_ENV}
