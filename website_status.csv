@@ -1,4 +1,4 @@
-URL,status_2025-04-07T23:09 UTC
+URL,status_2025-04-08T00:47 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -101,7 +101,7 @@ https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
 http://hfrnet.ucsd.edu/thredds/catalog.html,"HTTPSConnectionPool(host='hfrnet-tds.ucsd.edu', port=443): Max retries exceeded with url: /thredds/catalog.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1028)')))"
 https://www.aoml.noaa.gov/hurricane-research-division/,200
-https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f94e3bff610>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
+https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f59ca507610>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
 https://ioos.us,200
 http://www.caricoos.org/drupal/,200
 http://data.cencoos.org/,200
@@ -160,7 +160,7 @@ https://psl.noaa.gov/forecasts/seasonal/,200
 https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,200
 https://webodv-egi-ace.cloud.ba.infn.it/login,200
 https://reanalyses.org,200
-https://www.nrel.gov/gis/wind-resource-maps.html,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
 https://climatechange.chicago.gov/climate-indicators/oceans,200
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
@@ -170,9 +170,9 @@ https://www.marineregions.org/sources.php,200
 https://maps.coastalresilience.org,200
 https://www.coastalwiki.org/wiki/Main_Page,200
 https://habsos.noaa.gov,200
-https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/gulf-of-mexico/,"HTTPSConnectionPool(host='coastalscience.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/gulf-of-mexico/,200
 http://ocgweb.marine.usf.edu/index.html,200
-https://www.nrel.gov/grid/wind-toolkit.html,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+https://www.nrel.gov/grid/wind-toolkit.html,200
 https://www.oceaneconomics.org/index.html,200
 https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans/,200
 https://github.com/NOAA-PMEL/OneArgo-Mat,200
@@ -192,6 +192,6 @@ https://goosocean.org/our-work/,200
 https://www.mercator-ocean.eu/en/bulletin/,200
 https://www.ewoce.org/data/index.html,200
 https://www.eawag.ch/en/department/fishec/projects/,200
-https://data.ucar.edu/dataset/basis-zooplankton-data,200
+https://data.ucar.edu/dataset/basis-zooplankton-data,502
 https://tidesandcurrents.noaa.gov/cora.html,200
 https://oceanobservatories.org/data/,200
