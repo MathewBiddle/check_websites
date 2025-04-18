@@ -1,4 +1,4 @@
-URL,status_2025-04-18T22:09 UTC
+URL,status_2025-04-18T23:09 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -15,7 +15,7 @@ https://ioos.noaa.gov/data/access-ioos-data/,200
 https://gml.noaa.gov/data/data.php,200
 https://nsidc.org/data/explore-data,200
 https://www.ncdc.noaa.gov/stormevents/,200
-https://www.class.noaa.gov/,"HTTPSConnectionPool(host='www.class.noaa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f4d5f25a710>, 'Connection to www.class.noaa.gov timed out. (connect timeout=20)'))"
+https://www.class.noaa.gov/,200
 https://clearinghouse.marinedebris.noaa.gov/,200
 https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/,200
 https://data.noaa.gov/datasetsearch/,200
@@ -24,7 +24,7 @@ ftp://ftp.ncdc.noaa.gov/pub/data/,[Errno -2] Name or service not known
 https://www.nesdis.noaa.gov/data-research-services/data-collections,200
 https://science.nasa.gov/earth/,200
 https://science.nasa.gov/earth-science/,200
-https://www.earthdata.nasa.gov/about/esdis,504
+https://www.earthdata.nasa.gov/about/esdis,200
 https://science.gsfc.nasa.gov/sci/projects,200
 https://www.nasa.gov/news-release/nasa-accelerates-space-exploration-earth-science-for-all-in-2024/,200
 https://www.earthdata.nasa.gov/data/projects,200
@@ -72,7 +72,7 @@ https://www.bco-dmo.org,200
 https://www.bodc.ac.uk,200
 https://www.integratedecosystemassessment.noaa.gov/regions/california-current/california-current-marine-heatwave-tracker-blobtracker,200
 https://calcofi.org/,200
-https://oceanview.pfeg.noaa.gov/products/mhw/latest,"HTTPSConnectionPool(host='oceanview.pfeg.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://oceanview.pfeg.noaa.gov/products/mhw/latest,200
 https://psl.noaa.gov/ipcc/,200
 http://iridl.ldeo.columbia.edu/,200
 https://climatereanalyzer.org/,200
@@ -101,7 +101,7 @@ https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
 http://hfrnet.ucsd.edu/thredds/catalog.html,200
 https://www.aoml.noaa.gov/hurricane-research-division/,200
-https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f4d5f25b750>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
+https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f46f710b390>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
 https://ioos.us,200
 http://www.caricoos.org/drupal/,200
 http://data.cencoos.org/,200
@@ -109,7 +109,7 @@ http://data.gcoos.org/,200
 https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
-http://neracoos.org,200
+http://neracoos.org,"HTTPConnectionPool(host='neracoos.org', port=80): Read timed out. (read timeout=20)"
 http://oos.soest.hawaii.edu/pacioos/voyager/,200
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
@@ -152,12 +152,12 @@ https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
 https://spraydata.ucsd.edu/projects/,200
 https://spraydata.ucsd.edu/GulfStream/,200
 https://www.fisheries.noaa.gov/science-and-data,200
-https://www.socat.info/,"HTTPSConnectionPool(host='www.socat.info', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f4d5f25b750>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+https://www.socat.info/,200
 https://tidesandcurrents.noaa.gov,200
 https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,200
 https://psl.noaa.gov/forecasts/seasonal/,200
-https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,"HTTPSConnectionPool(host='upwell.pfeg.noaa.gov', port=443): Max retries exceeded with url: /products/PFEL/modeled/indices/upwelling/upwelling.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f4d5f25b390>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,200
 https://webodv-egi-ace.cloud.ba.infn.it/login,200
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
@@ -184,7 +184,7 @@ https://sanctuarywatch.ioos.us,200
 http://www.faralloninstitute.org,200
 https://www.fisheries.noaa.gov/resource/tool-app/noaa-fisheries-integrated-toolbox,200
 https://www.ncei.noaa.gov/products/world-ocean-atlas,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-https://polarwatch.noaa.gov/,"HTTPSConnectionPool(host='polarwatch.noaa.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f4d5f25ae90>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+https://polarwatch.noaa.gov/,200
 https://odv.awi.de/data/ocean/,200
 https://www.earthdata.nasa.gov/,200
 https://climate.esa.int/en/projects/,200
@@ -192,6 +192,6 @@ https://goosocean.org/our-work/,200
 https://www.mercator-ocean.eu/en/bulletin/,200
 https://www.ewoce.org/data/index.html,200
 https://www.eawag.ch/en/department/fishec/projects/,200
-https://data.ucar.edu/dataset/basis-zooplankton-data,200
+https://data.ucar.edu/dataset/basis-zooplankton-data,502
 https://tidesandcurrents.noaa.gov/cora.html,200
 https://oceanobservatories.org/data/,200
