@@ -1,4 +1,4 @@
-URL,status_2025-05-03T12:17 UTC
+URL,status_2025-05-03T13:17 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -64,7 +64,7 @@ https://portal.aoos.org,200
 https://data.pmel.noaa.gov/alamo/erddap/index.html,200
 https://arcticdata.io,200
 https://psl.noaa.gov/forecasts/seaice/,200
-https://argo.ucsd.edu/data/data-visualizations/,"HTTPSConnectionPool(host='argo.ucsd.edu', port=443): Read timed out. (read timeout=20)"
+https://argo.ucsd.edu/data/data-visualizations/,200
 https://psl.noaa.gov/atomic/,200
 https://psl.noaa.gov/map/time_plot/,200
 https://portal.aodn.org.au,200
@@ -100,7 +100,7 @@ https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
 http://hfrnet.ucsd.edu/thredds/catalog.html,200
 https://www.aoml.noaa.gov/hurricane-research-division/,200
-https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f8ecca07890>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
+https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f9139ffb610>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
 https://ioos.us,200
 http://www.caricoos.org/drupal/,200
 http://data.cencoos.org/,200
@@ -108,7 +108,7 @@ http://data.gcoos.org/,200
 https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
-http://neracoos.org,"HTTPConnectionPool(host='neracoos.org', port=80): Read timed out. (read timeout=20)"
+http://neracoos.org,200
 http://oos.soest.hawaii.edu/pacioos/voyager/,200
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
@@ -129,7 +129,7 @@ https://oceanadapt.rutgers.edu/,200
 https://obis.org,200
 https://www.oceannetworks.ca,200
 https://ooinet.oceanobservatories.org/,200
-https://eos.unh.edu/ocean-process-analysis-laboratory/,200
+https://eos.unh.edu/ocean-process-analysis-laboratory/,"HTTPSConnectionPool(host='eos.unh.edu', port=443): Max retries exceeded with url: /ocean-process-analysis-laboratory/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f9139ffbc50>, 'Connection to eos.unh.edu timed out. (connect timeout=20)'))"
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
 https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
@@ -146,7 +146,7 @@ https://sanctsound.ioos.us/,200
 https://coastwatch.noaa.gov/cwn/products.html,200
 https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,200
 https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml,200
-https://shorestations.ucsd.edu/about/,"HTTPSConnectionPool(host='shorestations.ucsd.edu', port=443): Read timed out. (read timeout=20)"
+https://shorestations.ucsd.edu/about/,200
 https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
 https://spraydata.ucsd.edu/projects/,200
 https://spraydata.ucsd.edu/GulfStream/,200
