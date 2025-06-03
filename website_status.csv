@@ -1,6 +1,6 @@
-URL,status_2025-06-03T12:20 UTC
+URL,status_2025-06-03T13:27 UTC
 https://data.noaa.gov,200
-https://www.ncdc.noaa.gov/cdo-web/,503
+https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.weather.gov/,200
 https://www.fisheries.noaa.gov/resources/tech-and-tools,200
@@ -14,7 +14,7 @@ https://nomads.ncep.noaa.gov/,200
 https://ioos.noaa.gov/data/access-ioos-data/,200
 https://gml.noaa.gov/data/data.php,200
 https://nsidc.org/data/explore-data,200
-https://www.ncdc.noaa.gov/stormevents/,500
+https://www.ncdc.noaa.gov/stormevents/,200
 https://www.class.noaa.gov/,200
 https://clearinghouse.marinedebris.noaa.gov/,200
 https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/,200
@@ -55,7 +55,7 @@ https://seagrant.noaa.gov,200
 https://researchprojects.noaa.gov,200
 https://pier.seagrant.noaa.gov,200
 https://drought.gov,200
-https://gsl.noaa.gov/fire-wx/fire-weather-testbed,"HTTPSConnectionPool(host='gsl.noaa.gov', port=443): Max retries exceeded with url: /fire-wx/fire-weather-testbed (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7ebe8a5bd0>, 'Connection to gsl.noaa.gov timed out. (connect timeout=20)'))"
+https://gsl.noaa.gov/fire-wx/fire-weather-testbed,"HTTPSConnectionPool(host='gsl.noaa.gov', port=443): Max retries exceeded with url: /fire-wx/fire-weather-testbed (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fab78705bd0>, 'Connection to gsl.noaa.gov timed out. (connect timeout=20)'))"
 https://sensors.ioos.us/,200
 https://data.pmel.noaa.gov/aclim/las/UI.html,200
 http://portal.aoos.org/,200
@@ -77,7 +77,7 @@ https://psl.noaa.gov/ipcc/,200
 http://iridl.ldeo.columbia.edu/,200
 https://psl.noaa.gov/gcos_wgsp/Timeseries/Plot/,200
 https://tidesandcurrents.noaa.gov/inundationdb/,200
-https://psl.noaa.gov/data/composites/,200
+https://psl.noaa.gov/data/composites/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /data/composites/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fab78706710>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
 https://marine.copernicus.eu,200
 https://psl.noaa.gov/data/correlation/,200
 https://apps-st.fisheries.noaa.gov/dismap/index.html,200
@@ -100,7 +100,7 @@ https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
 http://hfrnet.ucsd.edu/thredds/catalog.html,200
 https://www.aoml.noaa.gov/hurricane-research-division/,200
-https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f7ebe8a6ad0>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
+https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7fab78706c10>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
 https://ioos.us,200
 http://www.caricoos.org/drupal/,200
 http://data.cencoos.org/,200
@@ -109,7 +109,7 @@ https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
 http://neracoos.org,"HTTPConnectionPool(host='neracoos.org', port=80): Read timed out. (read timeout=20)"
-http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7ebe528270>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
+http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fab78384270>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
 https://ioos.github.io/ioos_code_lab/content/intro.html,200
