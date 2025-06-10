@@ -1,4 +1,4 @@
-URL,status_2025-06-10T19:08 UTC
+URL,status_2025-06-10T20:12 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -13,7 +13,7 @@ https://www.nhc.noaa.gov/data/,200
 https://nomads.ncep.noaa.gov/,200
 https://ioos.noaa.gov/data/access-ioos-data/,200
 https://gml.noaa.gov/data/data.php,200
-https://nsidc.org/data/explore-data,"HTTPSConnectionPool(host='nsidc.org', port=443): Read timed out. (read timeout=20)"
+https://nsidc.org/data/explore-data,200
 https://www.ncdc.noaa.gov/stormevents/,200
 https://www.class.noaa.gov/,200
 https://clearinghouse.marinedebris.noaa.gov/,200
@@ -27,7 +27,7 @@ https://science.nasa.gov/earth-science/,200
 https://www.earthdata.nasa.gov/about/esdis,200
 https://science.gsfc.nasa.gov/sci/projects,200
 https://www.nasa.gov/news-release/nasa-accelerates-space-exploration-earth-science-for-all-in-2024/,200
-https://www.earthdata.nasa.gov/data/projects,"HTTPSConnectionPool(host='www.earthdata.nasa.gov', port=443): Read timed out. (read timeout=20)"
+https://www.earthdata.nasa.gov/data/projects,200
 https://www.earthdata.nasa.gov/about/esdis/eosdis,200
 https://science.nasa.gov/earth/data/,200
 https://science.nasa.gov/earth/data/climate-data/,200
@@ -100,15 +100,15 @@ https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
 http://hfrnet.ucsd.edu/thredds/catalog.html,200
 https://www.aoml.noaa.gov/hurricane-research-division/,200
-https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5cb5c32ad0>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
+https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7ff62bf3a5d0>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
 https://ioos.us,200
 http://www.caricoos.org/drupal/,200
 http://data.cencoos.org/,200
 http://data.gcoos.org/,200
 https://seagull.glos.org/landing,200
 https://maracoos.org/,200
-http://nvs.nanoos.org/,"HTTPConnectionPool(host='nvs.nanoos.org', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5cb5f3bf00>, 'Connection to nvs.nanoos.org timed out. (connect timeout=20)'))"
-http://neracoos.org,"HTTPConnectionPool(host='neracoos.org', port=80): Read timed out. (read timeout=20)"
+http://nvs.nanoos.org/,200
+http://neracoos.org,200
 http://oos.soest.hawaii.edu/pacioos/voyager/,200
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
@@ -128,8 +128,8 @@ https://data.noaa.gov/onestop/,200
 https://oceanadapt.rutgers.edu/,200
 https://obis.org,200
 https://www.oceannetworks.ca,200
-https://ooinet.oceanobservatories.org/,502
-https://eos.unh.edu/ocean-process-analysis-laboratory/,200
+https://ooinet.oceanobservatories.org/,200
+https://eos.unh.edu/ocean-process-analysis-laboratory/,"HTTPSConnectionPool(host='eos.unh.edu', port=443): Max retries exceeded with url: /ocean-process-analysis-laboratory/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff62bf3a850>, 'Connection to eos.unh.edu timed out. (connect timeout=20)'))"
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
 https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
@@ -178,7 +178,7 @@ https://github.com/NOAA-PMEL/OneArgo-Mat,200
 https://giovanni.gsfc.nasa.gov/giovanni/,200
 https://mpa-dashboard.caloos.org,200
 https://faculty.washington.edu/pmacc/LO/LiveOcean.html,200
-https://www.nanoos.org/products/j-scope/home.php,"HTTPSConnectionPool(host='www.nanoos.org', port=443): Max retries exceeded with url: /products/j-scope/home.php (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f5cb5c320d0>, 'Connection to www.nanoos.org timed out. (connect timeout=20)'))"
+https://www.nanoos.org/products/j-scope/home.php,200
 https://sanctuarywatch.ioos.us,200
 http://www.faralloninstitute.org,200
 https://www.fisheries.noaa.gov/resource/tool-app/noaa-fisheries-integrated-toolbox,200
