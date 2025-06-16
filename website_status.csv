@@ -1,4 +1,4 @@
-URL,status_2025-06-16T12:21 UTC
+URL,status_2025-06-16T13:27 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -15,7 +15,7 @@ https://ioos.noaa.gov/data/access-ioos-data/,200
 https://gml.noaa.gov/data/data.php,200
 https://nsidc.org/data/explore-data,200
 https://www.ncdc.noaa.gov/stormevents/,200
-https://www.class.noaa.gov/,200
+https://www.class.noaa.gov/,"HTTPSConnectionPool(host='www.class.noaa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb799915590>, 'Connection to www.class.noaa.gov timed out. (connect timeout=20)'))"
 https://clearinghouse.marinedebris.noaa.gov/,200
 https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/,200
 https://data.noaa.gov/datasetsearch/,200
@@ -39,7 +39,7 @@ https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,200
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,200
-https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fe04d6496d0>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
+https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb7999160d0>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -100,7 +100,7 @@ https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
 http://hfrnet.ucsd.edu/thredds/catalog.html,200
 https://www.aoml.noaa.gov/hurricane-research-division/,200
-https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7fe04d64a850>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
+https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7fb799916990>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
 https://ioos.us,200
 http://www.caricoos.org/drupal/,200
 http://data.cencoos.org/,200
