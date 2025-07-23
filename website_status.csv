@@ -1,4 +1,4 @@
-URL,status_2025-07-23T16:14 UTC
+URL,status_2025-07-23T17:14 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -34,9 +34,9 @@ https://science.nasa.gov/earth/data/climate-data/,200
 https://science.nasa.gov/earth-science/missions/earth-system-observatory/,200
 https://github.com/opengeos/NASA-Earth-Data,200
 https://podaac.jpl.nasa.gov/,200
-https://oceancolor.gsfc.nasa.gov/,200
+https://oceancolor.gsfc.nasa.gov/,"HTTPSConnectionPool(host='oceancolor.gsfc.nasa.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8e28c9590>: Failed to establish a new connection: [Errno 101] Network is unreachable'))"
 https://swot.jpl.nasa.gov/,200
-https://seabass.gsfc.nasa.gov/,200
+https://seabass.gsfc.nasa.gov/,"HTTPSConnectionPool(host='seabass.gsfc.nasa.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8e28ca710>: Failed to establish a new connection: [Errno 101] Network is unreachable'))"
 https://www.earthdata.nasa.gov/data/tools/soto,200
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,200
 https://data.nasa.gov/,200
@@ -100,7 +100,7 @@ https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
 http://hfrnet.ucsd.edu/thredds/catalog.html,"HTTPSConnectionPool(host='hfrnet-tds.ucsd.edu', port=443): Max retries exceeded with url: /thredds/catalog.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1028)')))"
 https://www.aoml.noaa.gov/hurricane-research-division/,200
-https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7fd461dc9810>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
+https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7fc8e28c9e50>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
 https://ioos.us,200
 http://www.caricoos.org/drupal/,200
 http://data.cencoos.org/,200
@@ -161,10 +161,10 @@ https://webodv-egi-ace.cloud.ba.infn.it/login,200
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
-https://climatechange.chicago.gov/climate-indicators/oceans,"HTTPSConnectionPool(host='climatechange.chicago.gov', port=443): Max retries exceeded with url: /climate-indicators/oceans (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd461dc9950>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+https://climatechange.chicago.gov/climate-indicators/oceans,"HTTPSConnectionPool(host='climatechange.chicago.gov', port=443): Max retries exceeded with url: /climate-indicators/oceans (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fc8e28c9d10>, 'Connection to climatechange.chicago.gov timed out. (connect timeout=20)'))"
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
 https://www.epa.gov/climate-indicators/,200
-https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends,"HTTPSConnectionPool(host='www.fisheries.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends,200
 https://www.marineregions.org/sources.php,200
 https://maps.coastalresilience.org,200
 https://www.coastalwiki.org/wiki/Main_Page,200
