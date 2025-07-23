@@ -1,4 +1,4 @@
-URL,status_2025-07-23T12:22 UTC
+URL,status_2025-07-23T13:32 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -17,7 +17,7 @@ https://nsidc.org/data/explore-data,200
 https://www.ncdc.noaa.gov/stormevents/,200
 https://www.class.noaa.gov/,200
 https://clearinghouse.marinedebris.noaa.gov/,"HTTPSConnectionPool(host='clearinghouse.marinedebris.noaa.gov', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))"
-https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/,503
+https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/,200
 https://data.noaa.gov/datasetsearch/,200
 https://api.weather.gov/,200
 ftp://ftp.ncdc.noaa.gov/pub/data/,[Errno -2] Name or service not known
@@ -97,11 +97,11 @@ https://www.gfdl.noaa.gov/visualization/visualizations-oceans/,200
 https://gliders.ioos.us/data/,200
 https://www.cpc.ncep.noaa.gov/products/GODAS/,200
 https://psl.noaa.gov/data/gridded/,200
-https://hfradar.ioos.us/,"HTTPSConnectionPool(host='hfradar.ioos.us', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f5b00a16710>, 'Connection to hfradar.ioos.us timed out. (connect timeout=20)'))"
+https://hfradar.ioos.us/,200
 http://hfrnet.ucsd.edu/thredds/catalog.html,"HTTPSConnectionPool(host='hfrnet-tds.ucsd.edu', port=443): Max retries exceeded with url: /thredds/catalog.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1028)')))"
 https://www.aoml.noaa.gov/hurricane-research-division/,200
-https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5b00a15f90>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
-https://ioos.us,"HTTPSConnectionPool(host='ioos.us', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f5b00a15950>, 'Connection to ioos.us timed out. (connect timeout=20)'))"
+https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7fa7d1b41810>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
+https://ioos.us,"HTTPSConnectionPool(host='ioos.us', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fa7d1b41450>, 'Connection to ioos.us timed out. (connect timeout=20)'))"
 http://www.caricoos.org/drupal/,200
 http://data.cencoos.org/,200
 http://data.gcoos.org/,200
@@ -114,7 +114,7 @@ https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
 https://ioos.github.io/ioos_code_lab/content/intro.html,200
 https://github.com/ioos,200
-https://compliance.ioos.us/index.html,"HTTPSConnectionPool(host='compliance.ioos.us', port=443): Max retries exceeded with url: /index.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f5b00a15590>, 'Connection to compliance.ioos.us timed out. (connect timeout=20)'))"
+https://compliance.ioos.us/index.html,200
 https://icoads.noaa.gov/,200
 https://www.jodc.go.jp/jodcweb/ ,404
 https://archive.iwlearn.net/lme.edc.uri.edu/lme.edc.uri.edu/lme.edc.uri.edu/index.html,200
@@ -161,7 +161,7 @@ https://webodv-egi-ace.cloud.ba.infn.it/login,200
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
-https://climatechange.chicago.gov/climate-indicators/oceans,200
+https://climatechange.chicago.gov/climate-indicators/oceans,"HTTPSConnectionPool(host='climatechange.chicago.gov', port=443): Max retries exceeded with url: /climate-indicators/oceans (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa7d1b42490>: Failed to establish a new connection: [Errno 111] Connection refused'))"
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
 https://www.epa.gov/climate-indicators/,200
 https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends,200
@@ -179,7 +179,7 @@ https://giovanni.gsfc.nasa.gov/giovanni/,200
 https://mpa-dashboard.caloos.org,200
 https://faculty.washington.edu/pmacc/LO/LiveOcean.html,200
 https://www.nanoos.org/products/j-scope/home.php,200
-https://sanctuarywatch.ioos.us,"HTTPSConnectionPool(host='sanctuarywatch.ioos.us', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f5b00a16ad0>, 'Connection to sanctuarywatch.ioos.us timed out. (connect timeout=20)'))"
+https://sanctuarywatch.ioos.us,200
 http://www.faralloninstitute.org,200
 https://www.fisheries.noaa.gov/resource/tool-app/noaa-fisheries-integrated-toolbox,200
 https://www.ncei.noaa.gov/products/world-ocean-atlas,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
