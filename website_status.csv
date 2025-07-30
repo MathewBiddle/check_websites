@@ -1,11 +1,11 @@
-URL,status_2025-07-30T04:04 UTC
+URL,status_2025-07-30T05:22 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.weather.gov/,200
 https://www.fisheries.noaa.gov/resources/tech-and-tools,200
 https://tidesandcurrents.noaa.gov/,200
-https://coastwatch.noaa.gov/,"HTTPSConnectionPool(host='coastwatch.noaa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f5ef3abdd10>, 'Connection to coastwatch.noaa.gov timed out. (connect timeout=20)'))"
+https://coastwatch.noaa.gov/,"HTTPSConnectionPool(host='coastwatch.noaa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fae89745d10>, 'Connection to coastwatch.noaa.gov timed out. (connect timeout=20)'))"
 https://coris.noaa.gov/,200
 https://coast.noaa.gov/digitalcoast/,200
 https://registry.opendata.aws/noaa-swdi/,200
@@ -39,7 +39,7 @@ https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,200
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,200
-https://data.nasa.gov/,200
+https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fae897465d0>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -101,7 +101,7 @@ https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
 http://hfrnet.ucsd.edu/thredds/catalog.html,"HTTPSConnectionPool(host='hfrnet-tds.ucsd.edu', port=443): Max retries exceeded with url: /thredds/catalog.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1028)')))"
 https://www.aoml.noaa.gov/hurricane-research-division/,200
-https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ef3abdf90>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
+https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7fae89745e50>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
 https://ioos.us,200
 http://www.caricoos.org/drupal/,200
 http://data.cencoos.org/,200
@@ -144,7 +144,7 @@ https://psl.noaa.gov/pdo/,200
 https://data.pmel.noaa.gov/pmel/erddap/info/index.html?page=1&itemsPerPage=1000,200
 https://psl.noaa.gov/data/cruises/,200
 https://sanctsound.ioos.us/,200
-https://coastwatch.noaa.gov/cwn/products.html,"HTTPSConnectionPool(host='coastwatch.noaa.gov', port=443): Max retries exceeded with url: /cwn/products.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f5ef3abe0d0>, 'Connection to coastwatch.noaa.gov timed out. (connect timeout=20)'))"
+https://coastwatch.noaa.gov/cwn/products.html,"HTTPSConnectionPool(host='coastwatch.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,200
 https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml,200
 https://shorestations.ucsd.edu/about/,200
@@ -162,7 +162,7 @@ https://webodv-egi-ace.cloud.ba.infn.it/login,200
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
-https://climatechange.chicago.gov/climate-indicators/oceans,"HTTPSConnectionPool(host='climatechange.chicago.gov', port=443): Max retries exceeded with url: /climate-indicators/oceans (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f5ef3abe490>, 'Connection to climatechange.chicago.gov timed out. (connect timeout=20)'))"
+https://climatechange.chicago.gov/climate-indicators/oceans,"HTTPSConnectionPool(host='climatechange.chicago.gov', port=443): Max retries exceeded with url: /climate-indicators/oceans (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fae89746710>, 'Connection to climatechange.chicago.gov timed out. (connect timeout=20)'))"
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
 https://www.epa.gov/climate-indicators/,200
 https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends,200
@@ -181,7 +181,7 @@ https://mpa-dashboard.caloos.org,200
 https://faculty.washington.edu/pmacc/LO/LiveOcean.html,200
 https://www.nanoos.org/products/j-scope/home.php,200
 https://sanctuarywatch.ioos.us,200
-http://www.faralloninstitute.org,200
+http://www.faralloninstitute.org,"HTTPConnectionPool(host='www.faralloninstitute.org', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fae89a57ce0>, 'Connection to www.faralloninstitute.org timed out. (connect timeout=20)'))"
 https://www.fisheries.noaa.gov/resource/tool-app/noaa-fisheries-integrated-toolbox,200
 https://www.ncei.noaa.gov/products/world-ocean-atlas,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://polarwatch.noaa.gov/,200
