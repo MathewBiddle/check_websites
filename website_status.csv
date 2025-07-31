@@ -1,4 +1,4 @@
-URL,status_2025-07-31T00:57 UTC
+URL,status_2025-07-31T02:59 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -64,44 +64,44 @@ https://portal.atn.ioos.us/,200
 https://portal.aoos.org,200
 https://data.pmel.noaa.gov/alamo/erddap/index.html,200
 https://arcticdata.io,200
-https://psl.noaa.gov/forecasts/seaice/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /forecasts/seaice/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921a350>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
+https://psl.noaa.gov/forecasts/seaice/,200
 https://argo.ucsd.edu/data/data-visualizations/,200
-https://psl.noaa.gov/atomic/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /atomic/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921a710>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
-https://psl.noaa.gov/map/time_plot/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /map/time_plot/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921aad0>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
+https://psl.noaa.gov/atomic/,200
+https://psl.noaa.gov/map/time_plot/,200
 https://portal.aodn.org.au,200
 https://www.bco-dmo.org,200
 https://www.bodc.ac.uk,200
 https://www.integratedecosystemassessment.noaa.gov/regions/california-current/california-current-marine-heatwave-tracker-blobtracker,200
 https://calcofi.org/,200
 https://oceanview.pfeg.noaa.gov/products/mhw/latest,200
-https://psl.noaa.gov/ipcc/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /ipcc/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921ac10>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
+https://psl.noaa.gov/ipcc/,200
 http://iridl.ldeo.columbia.edu/,200
-https://psl.noaa.gov/gcos_wgsp/Timeseries/Plot/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /gcos_wgsp/Timeseries/Plot/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921a710>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
+https://psl.noaa.gov/gcos_wgsp/Timeseries/Plot/,200
 https://tidesandcurrents.noaa.gov/inundationdb/,200
-https://psl.noaa.gov/data/composites/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /data/composites/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921a0d0>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
+https://psl.noaa.gov/data/composites/,200
 https://marine.copernicus.eu,200
-https://psl.noaa.gov/data/correlation/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /data/correlation/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e9219f90>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
+https://psl.noaa.gov/data/correlation/,200
 https://apps-st.fisheries.noaa.gov/dismap/index.html,200
 https://www.pmel.noaa.gov/elnino/,200
-https://psl.noaa.gov/repository/model/compare?frequency=Monthly&event_group=ENSO+Events,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /repository/model/compare?frequency=Monthly&event_group=ENSO+Events (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e9219450>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
-https://psl.noaa.gov/enso/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /enso/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e9219a90>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
-https://psl.noaa.gov/enso/dashboard.html,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /enso/dashboard.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921a210>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
+https://psl.noaa.gov/repository/model/compare?frequency=Monthly&event_group=ENSO+Events,200
+https://psl.noaa.gov/enso/,200
+https://psl.noaa.gov/enso/dashboard.html,200
 https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/,200
 https://oceanexplorer.noaa.gov/technology/edna/edna.html,200
 https://www.ncei.noaa.gov/erddap/information.html,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-https://psl.noaa.gov/data/animation/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /data/animation/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921ae90>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
-https://psl.noaa.gov/repository/facts/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /repository/facts/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921b110>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
+https://psl.noaa.gov/data/animation/,200
+https://psl.noaa.gov/repository/facts/,200
 https://www.fisheries.noaa.gov/national/sustainable-fisheries/fisheries-economics-united-states,200
 https://github.com/AquaAuma/FishGlob_data,200
 https://data1.gfdl.noaa.gov,200
 https://www.gfdl.noaa.gov/visualization/visualizations-oceans/,200
 https://gliders.ioos.us/data/,200
 https://www.cpc.ncep.noaa.gov/products/GODAS/,200
-https://psl.noaa.gov/data/gridded/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /data/gridded/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921b390>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
+https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
 http://hfrnet.ucsd.edu/thredds/catalog.html,"HTTPSConnectionPool(host='hfrnet-tds.ucsd.edu', port=443): Max retries exceeded with url: /thredds/catalog.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1028)')))"
 https://www.aoml.noaa.gov/hurricane-research-division/,200
-https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f14e921b9d0>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
+https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f2cee4c5f90>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
 https://ioos.us,200
 http://www.caricoos.org/drupal/,200
 http://data.cencoos.org/,200
@@ -121,9 +121,9 @@ https://www.jodc.go.jp/jodcweb/ ,404
 https://archive.iwlearn.net/lme.edc.uri.edu/lme.edc.uri.edu/lme.edc.uri.edu/index.html,200
 https://github.com/NOAA-PMEL/las9,200
 https://mbon.ioos.us/,200
-https://psl.noaa.gov/map/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /map/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921bc50>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
-https://psl.noaa.gov/marine-heatwaves/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /marine-heatwaves/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921b9d0>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
-https://psl.noaa.gov/mjo/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /mjo/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921b610>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
+https://psl.noaa.gov/map/,200
+https://psl.noaa.gov/marine-heatwaves/,200
+https://psl.noaa.gov/mjo/,200
 https://www.mbari.org/our-work/data-repositories/,200
 https://data.noaa.gov/onestop/,200
 https://oceanadapt.rutgers.edu/,200
@@ -134,15 +134,15 @@ https://eos.unh.edu/ocean-process-analysis-laboratory/,200
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
 https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
-https://psl.noaa.gov/data/oceanwrit/map/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /data/oceanwrit/map/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921b390>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
-https://psl.noaa.gov/data/oceanwrit/timeseries/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /data/oceanwrit/timeseries/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921b110>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
-https://psl.noaa.gov/data/oceanwrit/corr/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /data/oceanwrit/corr/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921ad50>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
-https://psl.noaa.gov/data/oceanwrit/profile/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /data/oceanwrit/profile/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e9219d10>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
+https://psl.noaa.gov/data/oceanwrit/map/,200
+https://psl.noaa.gov/data/oceanwrit/timeseries/,200
+https://psl.noaa.gov/data/oceanwrit/corr/,200
+https://psl.noaa.gov/data/oceanwrit/profile/,200
 https://www.pmel.noaa.gov/tao/drupal/disdel/,200
 https://www.ncei.noaa.gov/access/monitoring/pdo/,200
-https://psl.noaa.gov/pdo/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /pdo/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e9219a90>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
+https://psl.noaa.gov/pdo/,200
 https://data.pmel.noaa.gov/pmel/erddap/info/index.html?page=1&itemsPerPage=1000,200
-https://psl.noaa.gov/data/cruises/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /data/cruises/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e9219e50>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
+https://psl.noaa.gov/data/cruises/,200
 https://sanctsound.ioos.us/,200
 https://coastwatch.noaa.gov/cwn/products.html,200
 https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,200
@@ -156,13 +156,13 @@ https://www.socat.info/,200
 https://tidesandcurrents.noaa.gov,200
 https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,200
-https://psl.noaa.gov/forecasts/seasonal/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /forecasts/seasonal/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e9219810>, 'Connection to psl.noaa.gov timed out. (connect timeout=20)'))"
+https://psl.noaa.gov/forecasts/seasonal/,200
 https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,200
 https://webodv-egi-ace.cloud.ba.infn.it/login,200
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
-https://climatechange.chicago.gov/climate-indicators/oceans,"HTTPSConnectionPool(host='climatechange.chicago.gov', port=443): Max retries exceeded with url: /climate-indicators/oceans (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f14e921a350>, 'Connection to climatechange.chicago.gov timed out. (connect timeout=20)'))"
+https://climatechange.chicago.gov/climate-indicators/oceans,"HTTPSConnectionPool(host='climatechange.chicago.gov', port=443): Max retries exceeded with url: /climate-indicators/oceans (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f2cee4c5a90>, 'Connection to climatechange.chicago.gov timed out. (connect timeout=20)'))"
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
 https://www.epa.gov/climate-indicators/,200
 https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends,200
