@@ -1,4 +1,4 @@
-URL,status_2025-11-09T17:08 UTC
+URL,status_2025-11-09T18:14 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -24,11 +24,11 @@ ftp://ftp.ncdc.noaa.gov/pub/data/,[Errno -2] Name or service not known
 https://www.nesdis.noaa.gov/data-research-services/data-collections,200
 https://science.nasa.gov/earth/,200
 https://science.nasa.gov/earth-science/,200
-https://www.earthdata.nasa.gov/about/esdis,403
+https://www.earthdata.nasa.gov/about/esdis,200
 https://science.gsfc.nasa.gov/sci/projects,200
 https://www.nasa.gov/news-release/nasa-accelerates-space-exploration-earth-science-for-all-in-2024/,200
-https://www.earthdata.nasa.gov/data/projects,403
-https://www.earthdata.nasa.gov/about/esdis/eosdis,403
+https://www.earthdata.nasa.gov/data/projects,200
+https://www.earthdata.nasa.gov/about/esdis/eosdis,200
 https://science.nasa.gov/earth/data/,200
 https://science.nasa.gov/earth/data/climate-data/,200
 https://science.nasa.gov/earth-science/missions/earth-system-observatory/,200
@@ -37,9 +37,9 @@ https://podaac.jpl.nasa.gov/,200
 https://oceancolor.gsfc.nasa.gov/,200
 https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,502
-https://www.earthdata.nasa.gov/data/tools/soto,403
-https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
-https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7d8a5ba990>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
+https://www.earthdata.nasa.gov/data/tools/soto,200
+https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,200
+https://data.nasa.gov/,200
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -72,14 +72,14 @@ https://portal.aodn.org.au,200
 https://www.bco-dmo.org,200
 https://www.bodc.ac.uk,200
 https://www.integratedecosystemassessment.noaa.gov/regions/california-current/california-current-marine-heatwave-tracker-blobtracker,200
-https://calcofi.org/,"HTTPSConnectionPool(host='calcofi.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7d8a5bac10>, 'Connection to calcofi.org timed out. (connect timeout=20)'))"
+https://calcofi.org/,"HTTPSConnectionPool(host='calcofi.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7922d4a990>, 'Connection to calcofi.org timed out. (connect timeout=20)'))"
 https://oceanview.pfeg.noaa.gov/products/mhw/latest,200
 https://psl.noaa.gov/ipcc/,200
 http://iridl.ldeo.columbia.edu/,200
 https://psl.noaa.gov/gcos_wgsp/Timeseries/Plot/,200
 https://tidesandcurrents.noaa.gov/inundationdb/,200
 https://psl.noaa.gov/data/composites/,200
-https://marine.copernicus.eu,"HTTPSConnectionPool(host='marine.copernicus.eu', port=443): Read timed out. (read timeout=20)"
+https://marine.copernicus.eu,200
 https://psl.noaa.gov/data/correlation/,200
 https://apps-st.fisheries.noaa.gov/dismap/index.html,200
 https://www.pmel.noaa.gov/elnino/,200
@@ -101,7 +101,7 @@ https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
 https://dods.ndbc.noaa.gov/thredds/catalog/hfradar.html,200
 https://www.aoml.noaa.gov/hurricane-research-division/,200
-https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f7d8a5bafd0>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
+https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f7922d4afd0>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
 https://ioos.us,200
 http://www.caricoos.org/drupal/,200
 http://data.cencoos.org/,200
@@ -130,10 +130,10 @@ https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.ed
 https://obis.org,200
 https://www.oceannetworks.ca,200
 https://ooinet.oceanobservatories.org/,200
-https://eos.unh.edu/ocean-process-analysis-laboratory/,200
+https://eos.unh.edu/ocean-process-analysis-laboratory/,"HTTPSConnectionPool(host='eos.unh.edu', port=443): Max retries exceeded with url: /ocean-process-analysis-laboratory/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7922d4a850>, 'Connection to eos.unh.edu timed out. (connect timeout=20)'))"
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
-https://marine.copernicus.eu/access-data/ocean-visualisation-tools,"HTTPSConnectionPool(host='marine.copernicus.eu', port=443): Read timed out. (read timeout=20)"
+https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
 https://psl.noaa.gov/data/oceanwrit/map/,200
 https://psl.noaa.gov/data/oceanwrit/timeseries/,200
 https://psl.noaa.gov/data/oceanwrit/corr/,200
@@ -161,8 +161,8 @@ https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.h
 https://webodv-egi-ace.cloud.ba.infn.it/login,200
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
-https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,"HTTPSConnectionPool(host='marine.copernicus.eu', port=443): Read timed out. (read timeout=20)"
-https://climatechange.chicago.gov/climate-indicators/oceans,"HTTPSConnectionPool(host='climatechange.chicago.gov', port=443): Max retries exceeded with url: /climate-indicators/oceans (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f7d8a5bb390>: Failed to resolve 'climatechange.chicago.gov' ([Errno -2] Name or service not known)""))"
+https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
+https://climatechange.chicago.gov/climate-indicators/oceans,"HTTPSConnectionPool(host='climatechange.chicago.gov', port=443): Max retries exceeded with url: /climate-indicators/oceans (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f7922d4aad0>: Failed to resolve 'climatechange.chicago.gov' ([Errno -2] Name or service not known)""))"
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
 https://www.epa.gov/climate-indicators/,200
 https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends,200
@@ -186,7 +186,7 @@ https://www.fisheries.noaa.gov/resource/tool-app/noaa-fisheries-integrated-toolb
 https://www.ncei.noaa.gov/products/world-ocean-atlas,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://polarwatch.noaa.gov/,200
 https://odv.awi.de/data/ocean/,200
-https://www.earthdata.nasa.gov/,403
+https://www.earthdata.nasa.gov/,200
 https://climate.esa.int/en/projects/,200
 https://goosocean.org/our-work/,200
 https://www.mercator-ocean.eu/en/bulletin/,200
