@@ -1,4 +1,4 @@
-URL,status_2025-11-14T07:11 UTC
+URL,status_2025-11-14T08:15 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -21,7 +21,7 @@ https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/,200
 https://data.noaa.gov/datasetsearch/,200
 https://api.weather.gov/,200
 ftp://ftp.ncdc.noaa.gov/pub/data/,[Errno -2] Name or service not known
-https://www.nesdis.noaa.gov/data-research-services/data-collections,200
+https://www.nesdis.noaa.gov/data-research-services/data-collections,"HTTPSConnectionPool(host='www.nesdis.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://science.nasa.gov/earth/,200
 https://science.nasa.gov/earth-science/,200
 https://www.earthdata.nasa.gov/about/esdis,403
@@ -39,7 +39,7 @@ https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,403
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
-https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7efc2abbe990>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
+https://data.nasa.gov/,200
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -101,7 +101,7 @@ https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
 https://dods.ndbc.noaa.gov/thredds/catalog/hfradar.html,200
 https://www.aoml.noaa.gov/hurricane-research-division/,200
-https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7efc2abbf110>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
+https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f383c1e6fd0>: Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
 https://ioos.us,200
 http://www.caricoos.org/drupal/,200
 http://data.cencoos.org/,200
@@ -162,7 +162,7 @@ https://webodv-egi-ace.cloud.ba.infn.it/login,200
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
-https://climatechange.chicago.gov/climate-indicators/oceans,"HTTPSConnectionPool(host='climatechange.chicago.gov', port=443): Max retries exceeded with url: /climate-indicators/oceans (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7efc2abbead0>: Failed to resolve 'climatechange.chicago.gov' ([Errno -2] Name or service not known)""))"
+https://climatechange.chicago.gov/climate-indicators/oceans,"HTTPSConnectionPool(host='climatechange.chicago.gov', port=443): Max retries exceeded with url: /climate-indicators/oceans (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f383c1e6d50>: Failed to resolve 'climatechange.chicago.gov' ([Errno -2] Name or service not known)""))"
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
 https://www.epa.gov/climate-indicators/,200
 https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends,200
