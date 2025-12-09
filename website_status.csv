@@ -1,4 +1,4 @@
-URL,status_2025-12-09T21:09 UTC
+URL,status_2025-12-09T22:11 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -39,7 +39,7 @@ https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,403
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
-https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7f40adef3110>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
+https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7f69c9b7f110>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -65,7 +65,7 @@ https://portal.aoos.org,200
 https://data.pmel.noaa.gov/alamo/erddap/index.html,503
 https://arcticdata.io,200
 https://psl.noaa.gov/forecasts/seaice/,200
-https://argo.ucsd.edu/data/data-visualizations/,200
+https://argo.ucsd.edu/data/data-visualizations/,502
 https://psl.noaa.gov/atomic/,200
 https://psl.noaa.gov/map/time_plot/,200
 https://portal.aodn.org.au,200
@@ -147,7 +147,7 @@ https://sanctsound.ioos.us/,200
 https://coastwatch.noaa.gov/cwn/products.html,200
 https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,200
 https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml,200
-https://shorestations.ucsd.edu/about/,200
+https://shorestations.ucsd.edu/about/,502
 https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
 https://spraydata.ucsd.edu/projects/,200
 https://spraydata.ucsd.edu/GulfStream/,200
