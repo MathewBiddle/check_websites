@@ -1,4 +1,4 @@
-URL,status_2025-12-09T00:54 UTC
+URL,status_2025-12-09T02:42 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -39,7 +39,7 @@ https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,403
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
-https://data.nasa.gov/,200
+https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7f43b6ef3110>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -116,7 +116,7 @@ http://portal.secoora.org/,200
 https://ioos.github.io/ioos_code_lab/content/intro.html,200
 https://github.com/ioos,200
 https://compliance.ioos.us/index.html,"HTTPSConnectionPool(host='compliance.ioos.us', port=443): Max retries exceeded with url: /index.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
-https://icoads.noaa.gov/,"HTTPSConnectionPool(host='icoads.noaa.gov', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)')))"
+https://icoads.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.jodc.go.jp/jodcweb/ ,404
 https://archive.iwlearn.net/lme.edc.uri.edu/lme.edc.uri.edu/lme.edc.uri.edu/index.html,200
 https://github.com/NOAA-PMEL/las9,404
@@ -130,7 +130,7 @@ https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.ed
 https://obis.org,200
 https://www.oceannetworks.ca,200
 https://ooinet.oceanobservatories.org/,200
-https://eos.unh.edu/ocean-process-analysis-laboratory/,200
+https://eos.unh.edu/ocean-process-analysis-laboratory/,"HTTPSConnectionPool(host='eos.unh.edu', port=443): Max retries exceeded with url: /ocean-process-analysis-laboratory/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='eos.unh.edu', port=443) at 0x7f43b6ef2ad0>, 'Connection to eos.unh.edu timed out. (connect timeout=20)'))"
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
 https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
@@ -161,7 +161,7 @@ https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.h
 https://webodv-egi-ace.cloud.ba.infn.it/login,200
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
-https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,"HTTPSConnectionPool(host='marine.copernicus.eu', port=443): Read timed out. (read timeout=20)"
+https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
 https://climatechange.chicago.gov/climate-indicators/oceans,"HTTPSConnectionPool(host='climatechange.chicago.gov', port=443): Max retries exceeded with url: /climate-indicators/oceans (Caused by NameResolutionError(""HTTPSConnection(host='climatechange.chicago.gov', port=443): Failed to resolve 'climatechange.chicago.gov' ([Errno -2] Name or service not known)""))"
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
 https://www.epa.gov/climate-indicators/,404
