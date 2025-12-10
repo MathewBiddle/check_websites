@@ -1,4 +1,4 @@
-URL,status_2025-12-10T09:15 UTC
+URL,status_2025-12-10T10:13 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -12,7 +12,7 @@ https://registry.opendata.aws/noaa-swdi/,200
 https://www.nhc.noaa.gov/data/,200
 https://nomads.ncep.noaa.gov/,200
 https://ioos.noaa.gov/data/access-ioos-data/,200
-https://gml.noaa.gov/data/data.php,200
+https://gml.noaa.gov/data/data.php,"HTTPSConnectionPool(host='gml.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://nsidc.org/data/explore-data,200
 https://www.ncdc.noaa.gov/stormevents/,200
 https://www.class.noaa.gov/,200
@@ -139,7 +139,7 @@ https://psl.noaa.gov/data/oceanwrit/timeseries/,200
 https://psl.noaa.gov/data/oceanwrit/corr/,200
 https://psl.noaa.gov/data/oceanwrit/profile/,200
 https://www.pmel.noaa.gov/tao/drupal/disdel/,200
-https://www.ncei.noaa.gov/access/monitoring/pdo/,503
+https://www.ncei.noaa.gov/access/monitoring/pdo/,"HTTPSConnectionPool(host='www.ncei.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://psl.noaa.gov/pdo/,200
 https://data.pmel.noaa.gov/pmel/erddap/info/index.html?page=1&itemsPerPage=1000,200
 https://psl.noaa.gov/data/cruises/,200
