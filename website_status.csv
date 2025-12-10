@@ -1,4 +1,4 @@
-URL,status_2025-12-10T11:11 UTC
+URL,status_2025-12-10T12:22 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -12,7 +12,7 @@ https://registry.opendata.aws/noaa-swdi/,200
 https://www.nhc.noaa.gov/data/,200
 https://nomads.ncep.noaa.gov/,200
 https://ioos.noaa.gov/data/access-ioos-data/,200
-https://gml.noaa.gov/data/data.php,"HTTPSConnectionPool(host='gml.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://gml.noaa.gov/data/data.php,200
 https://nsidc.org/data/explore-data,200
 https://www.ncdc.noaa.gov/stormevents/,200
 https://www.class.noaa.gov/,200
@@ -39,7 +39,7 @@ https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,200
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,200
-https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7f1f76ebb390>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
+https://data.nasa.gov/,200
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -96,7 +96,7 @@ https://github.com/AquaAuma/FishGlob_data,200
 https://data1.gfdl.noaa.gov,200
 https://www.gfdl.noaa.gov/visualization/visualizations-oceans/,200
 https://gliders.ioos.us/data/,200
-https://www.cpc.ncep.noaa.gov/products/GODAS/,"HTTPSConnectionPool(host='www.cpc.ncep.noaa.gov', port=443): Max retries exceeded with url: /products/GODAS/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.cpc.ncep.noaa.gov', port=443) at 0x7f1f76ebb390>, 'Connection to www.cpc.ncep.noaa.gov timed out. (connect timeout=20)'))"
+https://www.cpc.ncep.noaa.gov/products/GODAS/,200
 https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
 https://dods.ndbc.noaa.gov/thredds/catalog/hfradar.html,200
@@ -139,14 +139,14 @@ https://psl.noaa.gov/data/oceanwrit/timeseries/,200
 https://psl.noaa.gov/data/oceanwrit/corr/,200
 https://psl.noaa.gov/data/oceanwrit/profile/,200
 https://www.pmel.noaa.gov/tao/drupal/disdel/,200
-https://www.ncei.noaa.gov/access/monitoring/pdo/,"HTTPSConnectionPool(host='www.ncei.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://www.ncei.noaa.gov/access/monitoring/pdo/,200
 https://psl.noaa.gov/pdo/,200
 https://data.pmel.noaa.gov/pmel/erddap/info/index.html?page=1&itemsPerPage=1000,200
 https://psl.noaa.gov/data/cruises/,200
 https://sanctsound.ioos.us/,200
 https://coastwatch.noaa.gov/cwn/products.html,200
 https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,200
-https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml,"HTTPSConnectionPool(host='www.cpc.ncep.noaa.gov', port=443): Max retries exceeded with url: /products/international/nmme/nmme.shtml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.cpc.ncep.noaa.gov', port=443) at 0x7f1f76ebb4d0>, 'Connection to www.cpc.ncep.noaa.gov timed out. (connect timeout=20)'))"
+https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml,200
 https://shorestations.ucsd.edu/about/,200
 https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
 https://spraydata.ucsd.edu/projects/,200
