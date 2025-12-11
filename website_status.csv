@@ -1,4 +1,4 @@
-URL,status_2025-12-10T23:09 UTC
+URL,status_2025-12-11T00:56 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -39,7 +39,7 @@ https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,403
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
-https://data.nasa.gov/,200
+https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7f5826e87110>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -152,7 +152,7 @@ https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
 https://spraydata.ucsd.edu/projects/,200
 https://spraydata.ucsd.edu/GulfStream/,200
 https://www.fisheries.noaa.gov/science-and-data,200
-https://www.socat.info/,"HTTPSConnectionPool(host='www.socat.info', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.socat.info', port=443) at 0x7fa60cd2f890>, 'Connection to www.socat.info timed out. (connect timeout=20)'))"
+https://www.socat.info/,200
 https://tidesandcurrents.noaa.gov,200
 https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,200
