@@ -1,4 +1,4 @@
-URL,status_2025-12-12T08:16 UTC
+URL,status_2025-12-12T09:15 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -47,7 +47,7 @@ https://oeab.noaa.gov,200
 https://orta.research.noaa.gov,200
 https://testbeds.noaa.gov,200
 https://qosap.research.noaa.gov,200
-https://oss.research.noaa.gov,200
+https://oss.research.noaa.gov,"HTTPSConnectionPool(host='oss.research.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://eeo.oar.noaa.gov,200
 https://globalocean.noaa.gov,200
 https://cpo.noaa.gov,200
