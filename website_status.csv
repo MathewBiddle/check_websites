@@ -1,6 +1,6 @@
-URL,status_2025-12-16T16:16 UTC
+URL,status_2025-12-16T17:15 UTC
 https://data.noaa.gov,200
-https://www.ncdc.noaa.gov/cdo-web/,200
+https://www.ncdc.noaa.gov/cdo-web/,"HTTPSConnectionPool(host='www.ncdc.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.weather.gov/,200
 https://www.fisheries.noaa.gov/resources/tech-and-tools,200
@@ -91,7 +91,7 @@ https://oceanexplorer.noaa.gov/technology/edna/edna.html,200
 https://www.ncei.noaa.gov/erddap/information.html,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://psl.noaa.gov/data/animation/,200
 https://psl.noaa.gov/repository/facts/,200
-https://www.fisheries.noaa.gov/national/sustainable-fisheries/fisheries-economics-united-states,"HTTPSConnectionPool(host='www.fisheries.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://www.fisheries.noaa.gov/national/sustainable-fisheries/fisheries-economics-united-states,200
 https://github.com/AquaAuma/FishGlob_data,200
 https://data1.gfdl.noaa.gov,200
 https://www.gfdl.noaa.gov/visualization/visualizations-oceans/,200
@@ -109,7 +109,7 @@ http://data.gcoos.org/,200
 https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
-http://neracoos.org,"HTTPConnectionPool(host='neracoos.org', port=80): Read timed out. (read timeout=20)"
+http://neracoos.org,200
 http://oos.soest.hawaii.edu/pacioos/voyager/,200
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
@@ -139,7 +139,7 @@ https://psl.noaa.gov/data/oceanwrit/timeseries/,200
 https://psl.noaa.gov/data/oceanwrit/corr/,200
 https://psl.noaa.gov/data/oceanwrit/profile/,200
 https://www.pmel.noaa.gov/tao/drupal/disdel/,200
-https://www.ncei.noaa.gov/access/monitoring/pdo/,200
+https://www.ncei.noaa.gov/access/monitoring/pdo/,503
 https://psl.noaa.gov/pdo/,200
 https://data.pmel.noaa.gov/pmel/erddap/info/index.html?page=1&itemsPerPage=1000,200
 https://psl.noaa.gov/data/cruises/,200
@@ -165,7 +165,7 @@ https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
 https://climatechange.chicago.gov/climate-indicators/oceans,"HTTPSConnectionPool(host='climatechange.chicago.gov', port=443): Max retries exceeded with url: /climate-indicators/oceans (Caused by NameResolutionError(""HTTPSConnection(host='climatechange.chicago.gov', port=443): Failed to resolve 'climatechange.chicago.gov' ([Errno -2] Name or service not known)""))"
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
 https://www.epa.gov/climate-indicators/,404
-https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends,"HTTPSConnectionPool(host='www.fisheries.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends,200
 https://www.marineregions.org/sources.php,200
 https://maps.coastalresilience.org,200
 https://www.coastalwiki.org/wiki/Main_Page,200
