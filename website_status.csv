@@ -1,4 +1,4 @@
-URL,status_2025-12-16T20:13 UTC
+URL,status_2025-12-16T21:11 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -25,7 +25,7 @@ https://www.nesdis.noaa.gov/data-research-services/data-collections,200
 https://science.nasa.gov/earth/,200
 https://science.nasa.gov/earth-science/,200
 https://www.earthdata.nasa.gov/about/esdis,403
-https://science.gsfc.nasa.gov/sci/projects,502
+https://science.gsfc.nasa.gov/sci/projects,200
 https://www.nasa.gov/news-release/nasa-accelerates-space-exploration-earth-science-for-all-in-2024/,200
 https://www.earthdata.nasa.gov/data/projects,403
 https://www.earthdata.nasa.gov/about/esdis/eosdis,403
@@ -33,13 +33,13 @@ https://science.nasa.gov/earth/data/,200
 https://science.nasa.gov/earth/data/climate-data/,200
 https://science.nasa.gov/earth-science/missions/earth-system-observatory/,200
 https://github.com/opengeos/NASA-Earth-Data,200
-https://podaac.jpl.nasa.gov/,"HTTPSConnectionPool(host='podaac.jpl.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='podaac.jpl.nasa.gov', port=443) at 0x7fac923fa350>, 'Connection to podaac.jpl.nasa.gov timed out. (connect timeout=20)'))"
+https://podaac.jpl.nasa.gov/,200
 https://oceancolor.gsfc.nasa.gov/,200
 https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,403
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
-https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7fac923fb110>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
+https://data.nasa.gov/,200
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -96,7 +96,7 @@ https://github.com/AquaAuma/FishGlob_data,200
 https://data1.gfdl.noaa.gov,200
 https://www.gfdl.noaa.gov/visualization/visualizations-oceans/,200
 https://gliders.ioos.us/data/,200
-https://www.cpc.ncep.noaa.gov/products/GODAS/,200
+https://www.cpc.ncep.noaa.gov/products/GODAS/,"HTTPSConnectionPool(host='www.cpc.ncep.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
 https://dods.ndbc.noaa.gov/thredds/catalog/hfradar.html,200
@@ -130,7 +130,7 @@ https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.ed
 https://obis.org,200
 https://www.oceannetworks.ca,200
 https://ooinet.oceanobservatories.org/,200
-https://eos.unh.edu/ocean-process-analysis-laboratory/,"HTTPSConnectionPool(host='eos.unh.edu', port=443): Max retries exceeded with url: /ocean-process-analysis-laboratory/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='eos.unh.edu', port=443) at 0x7fac923fbb10>, 'Connection to eos.unh.edu timed out. (connect timeout=20)'))"
+https://eos.unh.edu/ocean-process-analysis-laboratory/,200
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
 https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
