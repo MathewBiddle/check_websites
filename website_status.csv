@@ -1,4 +1,4 @@
-URL,status_2025-12-18T02:44 UTC
+URL,status_2025-12-18T03:50 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -12,7 +12,7 @@ https://registry.opendata.aws/noaa-swdi/,200
 https://www.nhc.noaa.gov/data/,200
 https://nomads.ncep.noaa.gov/,200
 https://ioos.noaa.gov/data/access-ioos-data/,200
-https://gml.noaa.gov/data/data.php,200
+https://gml.noaa.gov/data/data.php,"HTTPSConnectionPool(host='gml.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://nsidc.org/data/explore-data,200
 https://www.ncdc.noaa.gov/stormevents/,200
 https://www.class.noaa.gov/,200
@@ -39,7 +39,7 @@ https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,403
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
-https://data.nasa.gov/,200
+https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7f0235987390>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
