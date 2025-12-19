@@ -1,4 +1,4 @@
-URL,status_2025-12-19T12:22 UTC
+URL,status_2025-12-19T13:27 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -25,7 +25,7 @@ https://www.nesdis.noaa.gov/data-research-services/data-collections,200
 https://science.nasa.gov/earth/,200
 https://science.nasa.gov/earth-science/,200
 https://www.earthdata.nasa.gov/about/esdis,200
-https://science.gsfc.nasa.gov/sci/projects,"HTTPSConnectionPool(host='science.gsfc.nasa.gov', port=443): Read timed out. (read timeout=20)"
+https://science.gsfc.nasa.gov/sci/projects,502
 https://www.nasa.gov/news-release/nasa-accelerates-space-exploration-earth-science-for-all-in-2024/,200
 https://www.earthdata.nasa.gov/data/projects,200
 https://www.earthdata.nasa.gov/about/esdis/eosdis,200
@@ -176,7 +176,7 @@ https://www.nrel.gov/grid/wind-toolkit.html,200
 https://www.oceaneconomics.org/index.html,200
 https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans/,200
 https://github.com/NOAA-PMEL/OneArgo-Mat,200
-https://giovanni.gsfc.nasa.gov/giovanni/,200
+https://giovanni.gsfc.nasa.gov/giovanni/,"HTTPSConnectionPool(host='giovanni.gsfc.nasa.gov', port=443): Max retries exceeded with url: /giovanni/ (Caused by NewConnectionError(""HTTPSConnection(host='giovanni.gsfc.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable""))"
 https://mpa-dashboard.caloos.org,200
 https://faculty.washington.edu/pmacc/LO/LiveOcean.html,200
 https://www.nanoos.org/products/j-scope/home.php,200
