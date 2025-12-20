@@ -1,4 +1,4 @@
-URL,status_2025-12-20T08:14 UTC
+URL,status_2025-12-20T09:11 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -187,7 +187,7 @@ https://www.ncei.noaa.gov/products/world-ocean-atlas,"('Connection aborted.', Re
 https://polarwatch.noaa.gov/,200
 https://odv.awi.de/data/ocean/,200
 https://www.earthdata.nasa.gov/,200
-https://climate.esa.int/en/projects/,"HTTPSConnectionPool(host='climate.esa.int', port=443): Read timed out. (read timeout=20)"
+https://climate.esa.int/en/projects/,200
 https://goosocean.org/our-work/,200
 https://www.mercator-ocean.eu/en/bulletin/,200
 https://www.ewoce.org/data/index.html,200
