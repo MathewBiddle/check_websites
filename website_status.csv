@@ -1,4 +1,4 @@
-URL,status_2025-12-22T13:28 UTC
+URL,status_2025-12-22T14:12 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -39,7 +39,7 @@ https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,403
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
-https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7fc9b3e4b9d0>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
+https://data.nasa.gov/,200
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -72,14 +72,14 @@ https://portal.aodn.org.au,200
 https://www.bco-dmo.org,200
 https://www.bodc.ac.uk,200
 https://www.integratedecosystemassessment.noaa.gov/regions/california-current/california-current-marine-heatwave-tracker-blobtracker,200
-https://calcofi.org/,"HTTPSConnectionPool(host='calcofi.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='calcofi.org', port=443) at 0x7fc9b3e4bed0>, 'Connection to calcofi.org timed out. (connect timeout=20)'))"
+https://calcofi.org/,"HTTPSConnectionPool(host='calcofi.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='calcofi.org', port=443) at 0x7f825d13f9d0>, 'Connection to calcofi.org timed out. (connect timeout=20)'))"
 https://oceanview.pfeg.noaa.gov/products/mhw/latest,200
 https://psl.noaa.gov/ipcc/,200
 http://iridl.ldeo.columbia.edu/,200
 https://psl.noaa.gov/gcos_wgsp/Timeseries/Plot/,200
 https://tidesandcurrents.noaa.gov/inundationdb/,200
 https://psl.noaa.gov/data/composites/,200
-https://marine.copernicus.eu,"HTTPSConnectionPool(host='marine.copernicus.eu', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='marine.copernicus.eu', port=443) at 0x7fc9b3e4bed0>, 'Connection to marine.copernicus.eu timed out. (connect timeout=20)'))"
+https://marine.copernicus.eu,200
 https://psl.noaa.gov/data/correlation/,200
 https://apps-st.fisheries.noaa.gov/dismap/index.html,200
 https://www.pmel.noaa.gov/elnino/,200
@@ -133,7 +133,7 @@ https://ooinet.oceanobservatories.org/,200
 https://eos.unh.edu/ocean-process-analysis-laboratory/,200
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
-https://marine.copernicus.eu/access-data/ocean-visualisation-tools,"HTTPSConnectionPool(host='marine.copernicus.eu', port=443): Max retries exceeded with url: /access-data/ocean-visualisation-tools (Caused by ConnectTimeoutError(<HTTPSConnection(host='marine.copernicus.eu', port=443) at 0x7fc9b3b947d0>, 'Connection to marine.copernicus.eu timed out. (connect timeout=20)'))"
+https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
 https://psl.noaa.gov/data/oceanwrit/map/,200
 https://psl.noaa.gov/data/oceanwrit/timeseries/,200
 https://psl.noaa.gov/data/oceanwrit/corr/,200
@@ -161,7 +161,7 @@ https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.h
 https://webodv-egi-ace.cloud.ba.infn.it/login,200
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
-https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,"HTTPSConnectionPool(host='marine.copernicus.eu', port=443): Max retries exceeded with url: /access-data/ocean-monitoring-indicators (Caused by ConnectTimeoutError(<HTTPSConnection(host='marine.copernicus.eu', port=443) at 0x7fc9b3e4bd90>, 'Connection to marine.copernicus.eu timed out. (connect timeout=20)'))"
+https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
 https://climatechange.chicago.gov/climate-indicators/oceans,"HTTPSConnectionPool(host='climatechange.chicago.gov', port=443): Max retries exceeded with url: /climate-indicators/oceans (Caused by NameResolutionError(""HTTPSConnection(host='climatechange.chicago.gov', port=443): Failed to resolve 'climatechange.chicago.gov' ([Errno -2] Name or service not known)""))"
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
 https://www.epa.gov/climate-indicators/,404
@@ -187,9 +187,9 @@ https://www.ncei.noaa.gov/products/world-ocean-atlas,"('Connection aborted.', Re
 https://polarwatch.noaa.gov/,200
 https://odv.awi.de/data/ocean/,200
 https://www.earthdata.nasa.gov/,403
-https://climate.esa.int/en/projects/,200
+https://climate.esa.int/en/projects/,"HTTPSConnectionPool(host='climate.esa.int', port=443): Read timed out. (read timeout=20)"
 https://goosocean.org/our-work/,200
-https://www.mercator-ocean.eu/en/bulletin/,"HTTPSConnectionPool(host='www.mercator-ocean.eu', port=443): Max retries exceeded with url: /en/bulletin/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mercator-ocean.eu', port=443) at 0x7fc9b3e4b4d0>, 'Connection to www.mercator-ocean.eu timed out. (connect timeout=20)'))"
+https://www.mercator-ocean.eu/en/bulletin/,200
 https://www.ewoce.org/data/index.html,200
 https://www.eawag.ch/en/department/fishec/projects/,200
 https://data.ucar.edu/dataset/basis-zooplankton-data,200
