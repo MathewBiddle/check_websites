@@ -1,4 +1,4 @@
-URL,status_2025-12-27T15:10 UTC
+URL,status_2025-12-27T16:13 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -25,7 +25,7 @@ https://www.nesdis.noaa.gov/data-research-services/data-collections,200
 https://science.nasa.gov/earth/,200
 https://science.nasa.gov/earth-science/,200
 https://www.earthdata.nasa.gov/about/esdis,200
-https://science.gsfc.nasa.gov/sci/projects,503
+https://science.gsfc.nasa.gov/sci/projects,200
 https://www.nasa.gov/news-release/nasa-accelerates-space-exploration-earth-science-for-all-in-2024/,200
 https://www.earthdata.nasa.gov/data/projects,200
 https://www.earthdata.nasa.gov/about/esdis/eosdis,200
@@ -53,7 +53,7 @@ https://globalocean.noaa.gov,200
 https://cpo.noaa.gov,200
 https://seagrant.noaa.gov,200
 https://researchprojects.noaa.gov,200
-https://pier.seagrant.noaa.gov,200
+https://pier.seagrant.noaa.gov,"HTTPSConnectionPool(host='pier.seagrant.noaa.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(""HTTPSConnection(host='pier.seagrant.noaa.gov', port=443): Failed to establish a new connection: [Errno 111] Connection refused""))"
 https://drought.gov,200
 https://gsl.noaa.gov/fire-wx/fire-weather-testbed,200
 https://sensors.ioos.us/,200
