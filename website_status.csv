@@ -1,4 +1,4 @@
-URL,status_2025-12-29T22:11 UTC
+URL,status_2025-12-29T23:11 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -192,6 +192,6 @@ https://goosocean.org/our-work/,200
 https://www.mercator-ocean.eu/en/bulletin/,200
 https://www.ewoce.org/data/index.html,200
 https://www.eawag.ch/en/department/fishec/projects/,200
-https://data.ucar.edu/dataset/basis-zooplankton-data,502
+https://data.ucar.edu/dataset/basis-zooplankton-data,200
 https://tidesandcurrents.noaa.gov/cora.html,200
 https://oceanobservatories.org/data/,200
