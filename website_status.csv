@@ -1,6 +1,6 @@
-URL,status_2025-12-29T01:00 UTC
+URL,status_2025-12-29T03:29 UTC
 https://data.noaa.gov,200
-https://www.ncdc.noaa.gov/cdo-web/,"HTTPSConnectionPool(host='www.ncdc.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.weather.gov/,200
 https://www.fisheries.noaa.gov/resources/tech-and-tools,200
@@ -64,9 +64,9 @@ https://portal.atn.ioos.us/,200
 https://portal.aoos.org,200
 https://data.pmel.noaa.gov/alamo/erddap/index.html,503
 https://arcticdata.io,200
-https://psl.noaa.gov/forecasts/seaice/,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+https://psl.noaa.gov/forecasts/seaice/,200
 https://argo.ucsd.edu/data/data-visualizations/,200
-https://psl.noaa.gov/atomic/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /atomic/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"
+https://psl.noaa.gov/atomic/,200
 https://psl.noaa.gov/map/time_plot/,200
 https://portal.aodn.org.au,200
 https://www.bco-dmo.org,200
@@ -74,17 +74,17 @@ https://www.bodc.ac.uk,200
 https://www.integratedecosystemassessment.noaa.gov/regions/california-current/california-current-marine-heatwave-tracker-blobtracker,200
 https://calcofi.org/,200
 https://oceanview.pfeg.noaa.gov/products/mhw/latest,200
-https://psl.noaa.gov/ipcc/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /ipcc/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"
+https://psl.noaa.gov/ipcc/,200
 http://iridl.ldeo.columbia.edu/,200
 https://psl.noaa.gov/gcos_wgsp/Timeseries/Plot/,200
 https://tidesandcurrents.noaa.gov/inundationdb/,200
 https://psl.noaa.gov/data/composites/,200
 https://marine.copernicus.eu,200
-https://psl.noaa.gov/data/correlation/,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+https://psl.noaa.gov/data/correlation/,200
 https://apps-st.fisheries.noaa.gov/dismap/index.html,200
 https://www.pmel.noaa.gov/elnino/,200
 https://psl.noaa.gov/repository/model/compare?frequency=Monthly&event_group=ENSO+Events,200
-https://psl.noaa.gov/enso/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /enso/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"
+https://psl.noaa.gov/enso/,200
 https://psl.noaa.gov/enso/dashboard.html,200
 https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/,200
 https://oceanexplorer.noaa.gov/technology/edna/edna.html,200
@@ -121,8 +121,8 @@ https://www.jodc.go.jp/jodcweb/ ,404
 https://archive.iwlearn.net/lme.edc.uri.edu/lme.edc.uri.edu/lme.edc.uri.edu/index.html,200
 https://github.com/NOAA-PMEL/las9,404
 https://mbon.ioos.us/,200
-https://psl.noaa.gov/map/,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-https://psl.noaa.gov/marine-heatwaves/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /marine-heatwaves/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"
+https://psl.noaa.gov/map/,200
+https://psl.noaa.gov/marine-heatwaves/,200
 https://psl.noaa.gov/mjo/,200
 https://www.mbari.org/our-work/data-repositories/,200
 https://data.noaa.gov/onestop/,200
@@ -136,11 +136,11 @@ https://oceancolor.gsfc.nasa.gov,200
 https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
 https://psl.noaa.gov/data/oceanwrit/map/,200
 https://psl.noaa.gov/data/oceanwrit/timeseries/,200
-https://psl.noaa.gov/data/oceanwrit/corr/,"HTTPSConnectionPool(host='psl.noaa.gov', port=443): Max retries exceeded with url: /data/oceanwrit/corr/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"
+https://psl.noaa.gov/data/oceanwrit/corr/,200
 https://psl.noaa.gov/data/oceanwrit/profile/,200
 https://www.pmel.noaa.gov/tao/drupal/disdel/,200
 https://www.ncei.noaa.gov/access/monitoring/pdo/,200
-https://psl.noaa.gov/pdo/,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+https://psl.noaa.gov/pdo/,200
 https://data.pmel.noaa.gov/pmel/erddap/info/index.html?page=1&itemsPerPage=1000,200
 https://psl.noaa.gov/data/cruises/,200
 https://sanctsound.ioos.us/,200
@@ -152,7 +152,7 @@ https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
 https://spraydata.ucsd.edu/projects/,200
 https://spraydata.ucsd.edu/GulfStream/,200
 https://www.fisheries.noaa.gov/science-and-data,200
-https://www.socat.info/,503
+https://www.socat.info/,200
 https://tidesandcurrents.noaa.gov,200
 https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,200
