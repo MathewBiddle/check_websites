@@ -1,4 +1,4 @@
-URL,status_2026-01-05T18:19 UTC
+URL,status_2026-01-05T19:13 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -110,7 +110,7 @@ https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
 http://neracoos.org,200
-http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by NameResolutionError(""HTTPConnection(host='oos.soest.hawaii.edu', port=80): Failed to resolve 'oos.soest.hawaii.edu' ([Errno -3] Temporary failure in name resolution)""))"
+http://oos.soest.hawaii.edu/pacioos/voyager/,200
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
 https://ioos.github.io/ioos_code_lab/content/intro.html,200
