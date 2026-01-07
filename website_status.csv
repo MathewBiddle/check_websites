@@ -1,4 +1,4 @@
-URL,status_2026-01-07T06:19 UTC
+URL,status_2026-01-07T07:17 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -55,9 +55,9 @@ https://seagrant.noaa.gov,200
 https://researchprojects.noaa.gov,200
 https://pier.seagrant.noaa.gov,200
 https://drought.gov,200
-https://gsl.noaa.gov/fire-wx/fire-weather-testbed,"HTTPSConnectionPool(host='gsl.noaa.gov', port=443): Max retries exceeded with url: /fire-wx/fire-weather-testbed (Caused by ConnectTimeoutError(<HTTPSConnection(host='gsl.noaa.gov', port=443) at 0x7f92cca5f890>, 'Connection to gsl.noaa.gov timed out. (connect timeout=20)'))"
+https://gsl.noaa.gov/fire-wx/fire-weather-testbed,"HTTPSConnectionPool(host='gsl.noaa.gov', port=443): Max retries exceeded with url: /fire-wx/fire-weather-testbed (Caused by ConnectTimeoutError(<HTTPSConnection(host='gsl.noaa.gov', port=443) at 0x7fd503d47890>, 'Connection to gsl.noaa.gov timed out. (connect timeout=20)'))"
 https://sensors.ioos.us/,200
-https://www.ncei.noaa.gov/data/,"HTTPSConnectionPool(host='www.ncei.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://www.ncei.noaa.gov/data/,200
 https://data.pmel.noaa.gov/aclim/las/UI.html,200
 http://portal.aoos.org/,200
 https://portal.atn.ioos.us/,200
@@ -173,7 +173,7 @@ https://habsos.noaa.gov,200
 https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/gulf-of-mexico/,200
 http://ocgweb.marine.usf.edu/index.html,200
 https://www.nrel.gov/grid/wind-toolkit.html,200
-https://www.oceaneconomics.org/index.html,200
+https://www.oceaneconomics.org/index.html,"HTTPSConnectionPool(host='www.oceaneconomics.org', port=443): Max retries exceeded with url: /index.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.oceaneconomics.org', port=443) at 0x7fd503a94190>, 'Connection to www.oceaneconomics.org timed out. (connect timeout=20)'))"
 https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans/,200
 https://github.com/NOAA-PMEL/OneArgo-Mat,200
 https://giovanni.gsfc.nasa.gov/giovanni/,200
