@@ -1,6 +1,6 @@
-URL,status_2026-01-07T18:18 UTC
+URL,status_2026-01-07T19:13 UTC
 https://data.noaa.gov,200
-https://www.ncdc.noaa.gov/cdo-web/,200
+https://www.ncdc.noaa.gov/cdo-web/,"HTTPSConnectionPool(host='www.ncdc.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.weather.gov/,200
 https://www.fisheries.noaa.gov/resources/tech-and-tools,200
@@ -39,7 +39,7 @@ https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,403
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
-https://data.nasa.gov/,200
+https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7f59be1c3d90>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -55,7 +55,7 @@ https://seagrant.noaa.gov,200
 https://researchprojects.noaa.gov,200
 https://pier.seagrant.noaa.gov,200
 https://drought.gov,200
-https://gsl.noaa.gov/fire-wx/fire-weather-testbed,"HTTPSConnectionPool(host='gsl.noaa.gov', port=443): Max retries exceeded with url: /fire-wx/fire-weather-testbed (Caused by ConnectTimeoutError(<HTTPSConnection(host='gsl.noaa.gov', port=443) at 0x7f7957db3890>, 'Connection to gsl.noaa.gov timed out. (connect timeout=20)'))"
+https://gsl.noaa.gov/fire-wx/fire-weather-testbed,200
 https://sensors.ioos.us/,200
 https://www.ncei.noaa.gov/data/,200
 https://data.pmel.noaa.gov/aclim/las/UI.html,200
@@ -96,7 +96,7 @@ https://github.com/AquaAuma/FishGlob_data,200
 https://data1.gfdl.noaa.gov,200
 https://www.gfdl.noaa.gov/visualization/visualizations-oceans/,200
 https://gliders.ioos.us/data/,200
-https://www.cpc.ncep.noaa.gov/products/GODAS/,200
+https://www.cpc.ncep.noaa.gov/products/GODAS/,"HTTPSConnectionPool(host='www.cpc.ncep.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
 https://dods.ndbc.noaa.gov/thredds/catalog/hfradar.html,200
@@ -146,7 +146,7 @@ https://psl.noaa.gov/data/cruises/,200
 https://sanctsound.ioos.us/,200
 https://coastwatch.noaa.gov/cwn/products.html,200
 https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,200
-https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml,200
+https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml,"HTTPSConnectionPool(host='www.cpc.ncep.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://shorestations.ucsd.edu/about/,200
 https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
 https://spraydata.ucsd.edu/projects/,200
