@@ -1,4 +1,4 @@
-URL,status_2026-01-07T12:24 UTC
+URL,status_2026-01-07T13:32 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -55,9 +55,9 @@ https://seagrant.noaa.gov,200
 https://researchprojects.noaa.gov,200
 https://pier.seagrant.noaa.gov,200
 https://drought.gov,200
-https://gsl.noaa.gov/fire-wx/fire-weather-testbed,"HTTPSConnectionPool(host='gsl.noaa.gov', port=443): Max retries exceeded with url: /fire-wx/fire-weather-testbed (Caused by ConnectTimeoutError(<HTTPSConnection(host='gsl.noaa.gov', port=443) at 0x7f7ddf33f890>, 'Connection to gsl.noaa.gov timed out. (connect timeout=20)'))"
+https://gsl.noaa.gov/fire-wx/fire-weather-testbed,"HTTPSConnectionPool(host='gsl.noaa.gov', port=443): Max retries exceeded with url: /fire-wx/fire-weather-testbed (Caused by ConnectTimeoutError(<HTTPSConnection(host='gsl.noaa.gov', port=443) at 0x7f19e90c3890>, 'Connection to gsl.noaa.gov timed out. (connect timeout=20)'))"
 https://sensors.ioos.us/,200
-https://www.ncei.noaa.gov/data/,"HTTPSConnectionPool(host='www.ncei.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://www.ncei.noaa.gov/data/,200
 https://data.pmel.noaa.gov/aclim/las/UI.html,200
 http://portal.aoos.org/,200
 https://portal.atn.ioos.us/,200
@@ -105,7 +105,7 @@ https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max
 https://ioos.us,200
 http://www.caricoos.org/drupal/,200
 http://data.cencoos.org/,200
-http://data.gcoos.org/,200
+http://data.gcoos.org/,"HTTPConnectionPool(host='data.gcoos.org', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(""HTTPConnection(host='data.gcoos.org', port=80): Failed to resolve 'data.gcoos.org' ([Errno -3] Temporary failure in name resolution)""))"
 https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
