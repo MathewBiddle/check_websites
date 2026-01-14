@@ -1,4 +1,4 @@
-URL,status_2026-01-14T12:24 UTC
+URL,status_2026-01-14T13:34 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -12,7 +12,7 @@ https://registry.opendata.aws/noaa-swdi/,200
 https://www.nhc.noaa.gov/data/,200
 https://nomads.ncep.noaa.gov/,200
 https://ioos.noaa.gov/data/access-ioos-data/,200
-https://gml.noaa.gov/data/data.php,"HTTPSConnectionPool(host='gml.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://gml.noaa.gov/data/data.php,"HTTPSConnectionPool(host='gml.noaa.gov', port=443): Max retries exceeded with url: /data/data.php (Caused by NewConnectionError(""HTTPSConnection(host='gml.noaa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable""))"
 https://nsidc.org/data/explore-data,200
 https://www.ncdc.noaa.gov/stormevents/,200
 https://www.class.noaa.gov/,200
