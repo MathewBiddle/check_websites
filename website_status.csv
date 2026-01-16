@@ -1,4 +1,4 @@
-URL,status_2026-01-16T02:57 UTC
+URL,status_2026-01-16T03:59 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -25,7 +25,7 @@ https://www.nesdis.noaa.gov/data-research-services/data-collections,200
 https://science.nasa.gov/earth/,200
 https://science.nasa.gov/earth-science/,200
 https://www.earthdata.nasa.gov/about/esdis,403
-https://science.gsfc.nasa.gov/sci/projects,"HTTPSConnectionPool(host='science.gsfc.nasa.gov', port=443): Read timed out. (read timeout=20)"
+https://science.gsfc.nasa.gov/sci/projects,200
 https://www.nasa.gov/news-release/nasa-accelerates-space-exploration-earth-science-for-all-in-2024/,200
 https://www.earthdata.nasa.gov/data/projects,403
 https://www.earthdata.nasa.gov/about/esdis/eosdis,403
@@ -110,7 +110,7 @@ https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
 http://neracoos.org,200
-http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<HTTPConnection(host='oos.soest.hawaii.edu', port=80) at 0x7f1d0fde57b0>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
+http://oos.soest.hawaii.edu/pacioos/voyager/,200
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
 https://ioos.github.io/ioos_code_lab/content/intro.html,200
@@ -130,7 +130,7 @@ https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.ed
 https://obis.org,200
 https://www.oceannetworks.ca,200
 https://ooinet.oceanobservatories.org/,200
-https://eos.unh.edu/ocean-process-analysis-laboratory/,"HTTPSConnectionPool(host='eos.unh.edu', port=443): Max retries exceeded with url: /ocean-process-analysis-laboratory/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='eos.unh.edu', port=443) at 0x7f1d1017ad50>, 'Connection to eos.unh.edu timed out. (connect timeout=20)'))"
+https://eos.unh.edu/ocean-process-analysis-laboratory/,200
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
 https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
@@ -139,7 +139,7 @@ https://psl.noaa.gov/data/oceanwrit/timeseries/,200
 https://psl.noaa.gov/data/oceanwrit/corr/,200
 https://psl.noaa.gov/data/oceanwrit/profile/,200
 https://www.pmel.noaa.gov/tao/drupal/disdel/,200
-https://www.ncei.noaa.gov/access/monitoring/pdo/,"HTTPSConnectionPool(host='www.ncei.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://www.ncei.noaa.gov/access/monitoring/pdo/,200
 https://psl.noaa.gov/pdo/,200
 https://data.pmel.noaa.gov/pmel/erddap/info/index.html?page=1&itemsPerPage=1000,200
 https://psl.noaa.gov/data/cruises/,200
