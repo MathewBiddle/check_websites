@@ -1,11 +1,11 @@
-URL,status_2026-01-20T14:21 UTC
+URL,status_2026-01-20T15:20 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,"HTTPSConnectionPool(host='www.ncdc.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.weather.gov/,200
 https://www.fisheries.noaa.gov/resources/tech-and-tools,200
 https://tidesandcurrents.noaa.gov/,200
-https://coastwatch.noaa.gov/,"HTTPSConnectionPool(host='coastwatch.noaa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='coastwatch.noaa.gov', port=443) at 0x7fec2cc83250>, 'Connection to coastwatch.noaa.gov timed out. (connect timeout=20)'))"
+https://coastwatch.noaa.gov/,"HTTPSConnectionPool(host='coastwatch.noaa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='coastwatch.noaa.gov', port=443) at 0x7f92acc5f250>, 'Connection to coastwatch.noaa.gov timed out. (connect timeout=20)'))"
 https://coris.noaa.gov/,200
 https://coast.noaa.gov/digitalcoast/,200
 https://registry.opendata.aws/noaa-swdi/,200
@@ -15,7 +15,7 @@ https://ioos.noaa.gov/data/access-ioos-data/,200
 https://gml.noaa.gov/data/data.php,200
 https://nsidc.org/data/explore-data,200
 https://www.ncdc.noaa.gov/stormevents/,200
-https://www.class.noaa.gov/,"HTTPSConnectionPool(host='www.class.noaa.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(""HTTPSConnection(host='www.class.noaa.gov', port=443): Failed to establish a new connection: [Errno 111] Connection refused""))"
+https://www.class.noaa.gov/,"HTTPSConnectionPool(host='www.class.noaa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.class.noaa.gov', port=443) at 0x7f92acc5f890>, 'Connection to www.class.noaa.gov timed out. (connect timeout=20)'))"
 https://clearinghouse.marinedebris.noaa.gov/,"HTTPSConnectionPool(host='clearinghouse.marinedebris.noaa.gov', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
 https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/,200
 https://data.noaa.gov/datasetsearch/,200
@@ -144,7 +144,7 @@ https://psl.noaa.gov/pdo/,200
 https://data.pmel.noaa.gov/pmel/erddap/info/index.html?page=1&itemsPerPage=1000,200
 https://psl.noaa.gov/data/cruises/,200
 https://sanctsound.ioos.us/,200
-https://coastwatch.noaa.gov/cwn/products.html,"HTTPSConnectionPool(host='coastwatch.noaa.gov', port=443): Max retries exceeded with url: /cwn/products.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='coastwatch.noaa.gov', port=443) at 0x7fec2cc83750>, 'Connection to coastwatch.noaa.gov timed out. (connect timeout=20)'))"
+https://coastwatch.noaa.gov/cwn/products.html,"HTTPSConnectionPool(host='coastwatch.noaa.gov', port=443): Max retries exceeded with url: /cwn/products.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='coastwatch.noaa.gov', port=443) at 0x7f92acc5f4d0>, 'Connection to coastwatch.noaa.gov timed out. (connect timeout=20)'))"
 https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,200
 https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml,200
 https://shorestations.ucsd.edu/about/,200
