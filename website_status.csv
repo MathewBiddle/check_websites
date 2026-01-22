@@ -1,4 +1,4 @@
-URL,status_2026-01-22T15:19 UTC
+URL,status_2026-01-22T16:21 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -25,7 +25,7 @@ https://www.nesdis.noaa.gov/data-research-services/data-collections,200
 https://science.nasa.gov/earth/,200
 https://science.nasa.gov/earth-science/,200
 https://www.earthdata.nasa.gov/about/esdis,403
-https://science.gsfc.nasa.gov/sci/projects,"HTTPSConnectionPool(host='science.gsfc.nasa.gov', port=443): Read timed out. (read timeout=20)"
+https://science.gsfc.nasa.gov/sci/projects,200
 https://www.nasa.gov/news-release/nasa-accelerates-space-exploration-earth-science-for-all-in-2024/,200
 https://www.earthdata.nasa.gov/data/projects,403
 https://www.earthdata.nasa.gov/about/esdis/eosdis,403
@@ -146,7 +146,7 @@ https://psl.noaa.gov/data/cruises/,200
 https://sanctsound.ioos.us/,200
 https://coastwatch.noaa.gov/cwn/products.html,200
 https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,200
-https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml,200
+https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml,"HTTPSConnectionPool(host='www.cpc.ncep.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://shorestations.ucsd.edu/about/,200
 https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
 https://spraydata.ucsd.edu/projects/,200
