@@ -1,4 +1,4 @@
-URL,status_2026-01-26T23:13 UTC
+URL,status_2026-01-27T01:01 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -24,11 +24,11 @@ ftp://ftp.ncdc.noaa.gov/pub/data/,[Errno -2] Name or service not known
 https://www.nesdis.noaa.gov/data-research-services/data-collections,200
 https://science.nasa.gov/earth/,200
 https://science.nasa.gov/earth-science/,200
-https://www.earthdata.nasa.gov/about/esdis,200
+https://www.earthdata.nasa.gov/about/esdis,403
 https://science.gsfc.nasa.gov/sci/projects,200
 https://www.nasa.gov/news-release/nasa-accelerates-space-exploration-earth-science-for-all-in-2024/,200
-https://www.earthdata.nasa.gov/data/projects,200
-https://www.earthdata.nasa.gov/about/esdis/eosdis,200
+https://www.earthdata.nasa.gov/data/projects,403
+https://www.earthdata.nasa.gov/about/esdis/eosdis,403
 https://science.nasa.gov/earth/data/,200
 https://science.nasa.gov/earth/data/climate-data/,200
 https://science.nasa.gov/earth-science/missions/earth-system-observatory/,200
@@ -37,9 +37,9 @@ https://podaac.jpl.nasa.gov/,200
 https://oceancolor.gsfc.nasa.gov/,200
 https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
-https://www.earthdata.nasa.gov/data/tools/soto,200
-https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,200
-https://data.nasa.gov/,200
+https://www.earthdata.nasa.gov/data/tools/soto,403
+https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
+https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7f8b05285d10>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -109,8 +109,8 @@ http://data.gcoos.org/,200
 https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
-http://neracoos.org,"HTTPConnectionPool(host='neracoos.org', port=80): Read timed out. (read timeout=20)"
-http://oos.soest.hawaii.edu/pacioos/voyager/,200
+http://neracoos.org,200
+http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<HTTPConnection(host='oos.soest.hawaii.edu', port=80) at 0x7f8b0528cf30>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
 https://ioos.github.io/ioos_code_lab/content/intro.html,200
@@ -126,11 +126,11 @@ https://psl.noaa.gov/marine-heatwaves/,200
 https://psl.noaa.gov/mjo/,200
 https://www.mbari.org/our-work/data-repositories/,200
 https://data.noaa.gov/onestop/,200
-https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.edu', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1032)')))"
+https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.edu', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='oceanadapt.rutgers.edu', port=443) at 0x7f8b05286350>, 'Connection to oceanadapt.rutgers.edu timed out. (connect timeout=20)'))"
 https://obis.org,200
 https://www.oceannetworks.ca,200
 https://ooinet.oceanobservatories.org/,200
-https://eos.unh.edu/ocean-process-analysis-laboratory/,200
+https://eos.unh.edu/ocean-process-analysis-laboratory/,"HTTPSConnectionPool(host='eos.unh.edu', port=443): Max retries exceeded with url: /ocean-process-analysis-laboratory/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='eos.unh.edu', port=443) at 0x7f8b05286710>, 'Connection to eos.unh.edu timed out. (connect timeout=20)'))"
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
 https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
@@ -158,7 +158,7 @@ https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,200
 https://psl.noaa.gov/forecasts/seasonal/,200
 https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,200
-https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7f586b358e10>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
+https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7f8b05285e50>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
@@ -186,12 +186,12 @@ https://www.fisheries.noaa.gov/resource/tool-app/noaa-fisheries-integrated-toolb
 https://www.ncei.noaa.gov/products/world-ocean-atlas,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://polarwatch.noaa.gov/,200
 https://odv.awi.de/data/ocean/,200
-https://www.earthdata.nasa.gov/,200
+https://www.earthdata.nasa.gov/,403
 https://climate.esa.int/en/projects/,200
 https://goosocean.org/our-work/,200
 https://www.mercator-ocean.eu/en/bulletin/,200
 https://www.ewoce.org/data/index.html,200
-https://www.eawag.ch/en/department/fishec/projects/,200
+https://www.eawag.ch/en/department/fishec/projects/,"HTTPSConnectionPool(host='www.eawag.ch', port=443): Max retries exceeded with url: /en/department/fishec/projects/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.eawag.ch', port=443) at 0x7f8b05287250>, 'Connection to www.eawag.ch timed out. (connect timeout=20)'))"
 https://data.ucar.edu/dataset/basis-zooplankton-data,200
 https://tidesandcurrents.noaa.gov/cora.html,200
 https://oceanobservatories.org/data/,200
