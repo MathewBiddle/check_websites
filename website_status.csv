@@ -1,4 +1,4 @@
-URL,status_2026-01-29T16:30 UTC
+URL,status_2026-01-29T17:29 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -24,11 +24,11 @@ ftp://ftp.ncdc.noaa.gov/pub/data/,[Errno -2] Name or service not known
 https://www.nesdis.noaa.gov/data-research-services/data-collections,200
 https://science.nasa.gov/earth/,200
 https://science.nasa.gov/earth-science/,200
-https://www.earthdata.nasa.gov/about/esdis,403
+https://www.earthdata.nasa.gov/about/esdis,200
 https://science.gsfc.nasa.gov/sci/projects,200
 https://www.nasa.gov/news-release/nasa-accelerates-space-exploration-earth-science-for-all-in-2024/,200
-https://www.earthdata.nasa.gov/data/projects,403
-https://www.earthdata.nasa.gov/about/esdis/eosdis,403
+https://www.earthdata.nasa.gov/data/projects,200
+https://www.earthdata.nasa.gov/about/esdis/eosdis,200
 https://science.nasa.gov/earth/data/,200
 https://science.nasa.gov/earth/data/climate-data/,200
 https://science.nasa.gov/earth-science/missions/earth-system-observatory/,200
@@ -37,8 +37,8 @@ https://podaac.jpl.nasa.gov/,200
 https://oceancolor.gsfc.nasa.gov/,200
 https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
-https://www.earthdata.nasa.gov/data/tools/soto,403
-https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
+https://www.earthdata.nasa.gov/data/tools/soto,200
+https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,200
 https://data.nasa.gov/,200
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
@@ -82,7 +82,7 @@ https://psl.noaa.gov/data/composites/,200
 https://marine.copernicus.eu,200
 https://psl.noaa.gov/data/correlation/,200
 https://apps-st.fisheries.noaa.gov/dismap/index.html,200
-https://www.pmel.noaa.gov/elnino/,200
+https://www.pmel.noaa.gov/elnino/,"HTTPSConnectionPool(host='www.pmel.noaa.gov', port=443): Max retries exceeded with url: /elnino/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.pmel.noaa.gov', port=443) at 0x7f29d3e91e50>, 'Connection to www.pmel.noaa.gov timed out. (connect timeout=20)'))"
 https://psl.noaa.gov/repository/model/compare?frequency=Monthly&event_group=ENSO+Events,200
 https://psl.noaa.gov/enso/,200
 https://psl.noaa.gov/enso/dashboard.html,200
@@ -103,7 +103,7 @@ https://dods.ndbc.noaa.gov/thredds/catalog/hfradar.html,200
 https://www.aoml.noaa.gov/hurricane-research-division/,200
 https://nodc.id/oceanography,"HTTPSConnectionPool(host='nodc.id', port=443): Max retries exceeded with url: /oceanography (Caused by NameResolutionError(""HTTPSConnection(host='nodc.id', port=443): Failed to resolve 'nodc.id' ([Errno -2] Name or service not known)""))"
 https://ioos.us,200
-http://www.caricoos.org/drupal/,"HTTPConnectionPool(host='www.caricoos.org', port=80): Read timed out. (read timeout=20)"
+http://www.caricoos.org/drupal/,200
 http://data.cencoos.org/,200
 http://data.gcoos.org/,200
 https://seagull.glos.org/landing,200
@@ -138,10 +138,10 @@ https://psl.noaa.gov/data/oceanwrit/map/,200
 https://psl.noaa.gov/data/oceanwrit/timeseries/,200
 https://psl.noaa.gov/data/oceanwrit/corr/,200
 https://psl.noaa.gov/data/oceanwrit/profile/,200
-https://www.pmel.noaa.gov/tao/drupal/disdel/,200
+https://www.pmel.noaa.gov/tao/drupal/disdel/,"HTTPSConnectionPool(host='www.pmel.noaa.gov', port=443): Max retries exceeded with url: /tao/drupal/disdel/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.pmel.noaa.gov', port=443) at 0x7f29d3e92850>, 'Connection to www.pmel.noaa.gov timed out. (connect timeout=20)'))"
 https://www.ncei.noaa.gov/access/monitoring/pdo/,200
 https://psl.noaa.gov/pdo/,200
-https://data.pmel.noaa.gov/pmel/erddap/info/index.html?page=1&itemsPerPage=1000,200
+https://data.pmel.noaa.gov/pmel/erddap/info/index.html?page=1&itemsPerPage=1000,"HTTPSConnectionPool(host='data.pmel.noaa.gov', port=443): Max retries exceeded with url: /pmel/erddap/info/index.html?page=1&itemsPerPage=1000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.pmel.noaa.gov', port=443) at 0x7f29d3e92c10>, 'Connection to data.pmel.noaa.gov timed out. (connect timeout=20)'))"
 https://psl.noaa.gov/data/cruises/,200
 https://sanctsound.ioos.us/,200
 https://coastwatch.noaa.gov/cwn/products.html,200
@@ -158,7 +158,7 @@ https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,200
 https://psl.noaa.gov/forecasts/seasonal/,200
 https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,200
-https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7f101fadce10>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
+https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7f29d3e925d0>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
@@ -186,7 +186,7 @@ https://www.fisheries.noaa.gov/resource/tool-app/noaa-fisheries-integrated-toolb
 https://www.ncei.noaa.gov/products/world-ocean-atlas,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://polarwatch.noaa.gov/,200
 https://odv.awi.de/data/ocean/,200
-https://www.earthdata.nasa.gov/,403
+https://www.earthdata.nasa.gov/,200
 https://climate.esa.int/en/projects/,200
 https://goosocean.org/our-work/,200
 https://www.mercator-ocean.eu/en/bulletin/,200
