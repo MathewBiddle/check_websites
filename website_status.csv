@@ -1,4 +1,4 @@
-URL,status_2026-01-31T17:15 UTC
+URL,status_2026-01-31T18:17 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -24,11 +24,11 @@ ftp://ftp.ncdc.noaa.gov/pub/data/,[Errno -2] Name or service not known
 https://www.nesdis.noaa.gov/data-research-services/data-collections,200
 https://science.nasa.gov/earth/,200
 https://science.nasa.gov/earth-science/,200
-https://www.earthdata.nasa.gov/about/esdis,200
+https://www.earthdata.nasa.gov/about/esdis,403
 https://science.gsfc.nasa.gov/sci/projects,200
 https://www.nasa.gov/news-release/nasa-accelerates-space-exploration-earth-science-for-all-in-2024/,200
-https://www.earthdata.nasa.gov/data/projects,200
-https://www.earthdata.nasa.gov/about/esdis/eosdis,200
+https://www.earthdata.nasa.gov/data/projects,403
+https://www.earthdata.nasa.gov/about/esdis/eosdis,403
 https://science.nasa.gov/earth/data/,200
 https://science.nasa.gov/earth/data/climate-data/,200
 https://science.nasa.gov/earth-science/missions/earth-system-observatory/,200
@@ -37,9 +37,9 @@ https://podaac.jpl.nasa.gov/,200
 https://oceancolor.gsfc.nasa.gov/,200
 https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
-https://www.earthdata.nasa.gov/data/tools/soto,200
-https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,200
-https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7f24424d9e50>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
+https://www.earthdata.nasa.gov/data/tools/soto,403
+https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
+https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7fdddda39e50>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -69,7 +69,7 @@ https://argo.ucsd.edu/data/data-visualizations/,200
 https://psl.noaa.gov/atomic/,200
 https://psl.noaa.gov/map/time_plot/,200
 https://portal.aodn.org.au,200
-https://www.bco-dmo.org,403
+https://www.bco-dmo.org,200
 https://www.bodc.ac.uk,200
 https://www.integratedecosystemassessment.noaa.gov/regions/california-current/california-current-marine-heatwave-tracker-blobtracker,200
 https://calcofi.org/,200
@@ -158,7 +158,7 @@ https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,200
 https://psl.noaa.gov/forecasts/seasonal/,200
 https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,200
-https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7f24424d9d10>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
+https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7fdddda39d10>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
@@ -186,7 +186,7 @@ https://www.fisheries.noaa.gov/resource/tool-app/noaa-fisheries-integrated-toolb
 https://www.ncei.noaa.gov/products/world-ocean-atlas,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://polarwatch.noaa.gov/,200
 https://odv.awi.de/data/ocean/,200
-https://www.earthdata.nasa.gov/,200
+https://www.earthdata.nasa.gov/,403
 https://climate.esa.int/en/projects/,200
 https://goosocean.org/our-work/,200
 https://www.mercator-ocean.eu/en/bulletin/,200
