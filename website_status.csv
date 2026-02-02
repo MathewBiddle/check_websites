@@ -1,4 +1,4 @@
-URL,status_2026-02-02T17:30 UTC
+URL,status_2026-02-02T18:28 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -158,11 +158,11 @@ https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,200
 https://psl.noaa.gov/forecasts/seasonal/,200
 https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,200
-https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7f2c22c50cd0>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
+https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7fd01f3b0cd0>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
-https://climatechange.chicago.gov/climate-indicators/oceans,"HTTPSConnectionPool(host='climatechange.chicago.gov', port=443): Max retries exceeded with url: /climate-indicators/oceans (Caused by NameResolutionError(""HTTPSConnection(host='climatechange.chicago.gov', port=443): Failed to resolve 'climatechange.chicago.gov' ([Errno -2] Name or service not known)""))"
+https://19january2021snapshot.epa.gov/climate-indicators/oceans_.html,200
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
 https://www.epa.gov/climate-indicators/,404
 https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends,200
@@ -172,7 +172,7 @@ https://www.coastalwiki.org/wiki/Main_Page,200
 https://habsos.noaa.gov,200
 https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/gulf-of-mexico/,200
 http://ocgweb.marine.usf.edu/index.html,200
-https://www.nrel.gov/grid/wind-toolkit.html,"HTTPSConnectionPool(host='www.nlr.gov', port=443): Read timed out. (read timeout=20)"
+https://www.nrel.gov/grid/wind-toolkit.html,200
 https://www.oceaneconomics.org/index.html,200
 https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans/,200
 https://github.com/NOAA-PMEL/OneArgo-Mat,200
