@@ -1,4 +1,4 @@
-URL,status_2026-02-03T12:34 UTC
+URL,status_2026-02-03T13:56 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -15,7 +15,7 @@ https://ioos.noaa.gov/data/access-ioos-data/,200
 https://gml.noaa.gov/data/data.php,200
 https://nsidc.org/data/explore-data,200
 https://www.ncdc.noaa.gov/stormevents/,200
-https://www.class.noaa.gov/,"HTTPSConnectionPool(host='www.class.noaa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.class.noaa.gov', port=443) at 0x7f9a207e9590>, 'Connection to www.class.noaa.gov timed out. (connect timeout=20)'))"
+https://www.class.noaa.gov/,200
 https://clearinghouse.marinedebris.noaa.gov/,"HTTPSConnectionPool(host='clearinghouse.marinedebris.noaa.gov', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
 https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/,200
 https://data.noaa.gov/datasetsearch/,200
@@ -130,7 +130,7 @@ https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.ed
 https://obis.org,200
 https://www.oceannetworks.ca,200
 https://ooinet.oceanobservatories.org/,200
-https://eos.unh.edu/ocean-process-analysis-laboratory/,200
+https://eos.unh.edu/ocean-process-analysis-laboratory/,"HTTPSConnectionPool(host='eos.unh.edu', port=443): Max retries exceeded with url: /ocean-process-analysis-laboratory/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='eos.unh.edu', port=443) at 0x7f384b80e350>, 'Connection to eos.unh.edu timed out. (connect timeout=20)'))"
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
 https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
@@ -158,7 +158,7 @@ https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,200
 https://psl.noaa.gov/forecasts/seasonal/,200
 https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,200
-https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7f9a207e9810>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
+https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7f384b80ccd0>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
