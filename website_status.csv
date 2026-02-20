@@ -1,6 +1,6 @@
-URL,status_2026-02-20T16:25 UTC
+URL,status_2026-02-20T17:29 UTC
 https://data.noaa.gov,200
-https://www.ncdc.noaa.gov/cdo-web/,200
+https://www.ncdc.noaa.gov/cdo-web/,"HTTPSConnectionPool(host='www.ncdc.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.weather.gov/,200
 https://www.fisheries.noaa.gov/resources/tech-and-tools,200
@@ -130,7 +130,7 @@ https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.ed
 https://obis.org,200
 https://www.oceannetworks.ca,200
 https://ooinet.oceanobservatories.org/,200
-https://eos.unh.edu/ocean-process-analysis-laboratory/,200
+https://eos.unh.edu/ocean-process-analysis-laboratory/,"HTTPSConnectionPool(host='eos.unh.edu', port=443): Max retries exceeded with url: /ocean-process-analysis-laboratory/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='eos.unh.edu', port=443) at 0x7fad09c260d0>, 'Connection to eos.unh.edu timed out. (connect timeout=20)'))"
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
 https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
@@ -158,7 +158,7 @@ https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,200
 https://psl.noaa.gov/forecasts/seasonal/,200
 https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,200
-https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7f54eabba990>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
+https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7fad09c25f90>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
@@ -187,7 +187,7 @@ https://www.ncei.noaa.gov/products/world-ocean-atlas,"('Connection aborted.', Re
 https://polarwatch.noaa.gov/,200
 https://odv.awi.de/data/ocean/,200
 https://www.earthdata.nasa.gov/,403
-https://climate.esa.int/en/projects/,200
+https://climate.esa.int/en/projects/,400
 https://goosocean.org/our-work/,200
 https://www.mercator-ocean.eu/en/bulletin/,200
 https://www.ewoce.org/data/index.html,200
