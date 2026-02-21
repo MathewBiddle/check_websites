@@ -1,4 +1,4 @@
-URL,status_2026-02-21T17:17 UTC
+URL,status_2026-02-21T18:20 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -79,7 +79,7 @@ http://iridl.ldeo.columbia.edu/,200
 https://psl.noaa.gov/gcos_wgsp/Timeseries/Plot/,200
 https://tidesandcurrents.noaa.gov/inundationdb/,200
 https://psl.noaa.gov/data/composites/,200
-https://marine.copernicus.eu,200
+https://marine.copernicus.eu,"HTTPSConnectionPool(host='marine.copernicus.eu', port=443): Read timed out. (read timeout=20)"
 https://psl.noaa.gov/data/correlation/,200
 https://apps-st.fisheries.noaa.gov/dismap/index.html,200
 https://www.pmel.noaa.gov/elnino/,200
@@ -109,7 +109,7 @@ http://data.gcoos.org/,200
 https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
-http://neracoos.org,"HTTPConnectionPool(host='neracoos.org', port=80): Read timed out. (read timeout=20)"
+http://neracoos.org,200
 http://oos.soest.hawaii.edu/pacioos/voyager/,200
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
@@ -133,7 +133,7 @@ https://ooinet.oceanobservatories.org/,200
 https://eos.unh.edu/ocean-process-analysis-laboratory/,200
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
-https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
+https://marine.copernicus.eu/access-data/ocean-visualisation-tools,"HTTPSConnectionPool(host='marine.copernicus.eu', port=443): Read timed out. (read timeout=20)"
 https://psl.noaa.gov/data/oceanwrit/map/,200
 https://psl.noaa.gov/data/oceanwrit/timeseries/,200
 https://psl.noaa.gov/data/oceanwrit/corr/,200
@@ -158,10 +158,10 @@ https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,200
 https://psl.noaa.gov/forecasts/seasonal/,200
 https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,200
-https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7f8efb32e990>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
+https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7ff05da76710>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
-https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
+https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,"HTTPSConnectionPool(host='marine.copernicus.eu', port=443): Read timed out. (read timeout=20)"
 https://19january2021snapshot.epa.gov/climate-indicators/oceans_.html,200
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
 https://www.epa.gov/climate-indicators/,404
