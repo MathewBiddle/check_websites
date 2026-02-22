@@ -28,24 +28,24 @@
     <tr style="text-align: left;">
       <th>URL</th>
       <th>functioning</th>
-      <th>status_2026-02-22T17:17 UTC</th>
+      <th>status_2026-02-22T18:20 UTC</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><a href="https://data.noaa.gov" target="_blank">https://data.noaa.gov</a></td>
-      <td><span>&#10060;</span></td>
-      <td>HTTPSConnectionPool(host='data.noaa.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='data.noaa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))</td>
+      <td><span>&#9989;</span></td>
+      <td>200</td>
     </tr>
     <tr>
       <td><a href="https://www.ncdc.noaa.gov/cdo-web/" target="_blank">https://www.ncdc.noaa.gov/cdo-web/</a></td>
-      <td><span>&#10060;</span></td>
-      <td>HTTPSConnectionPool(host='www.ncdc.noaa.gov', port=443): Max retries exceeded with url: /cdo-web/ (Caused by NewConnectionError("HTTPSConnection(host='www.ncdc.noaa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))</td>
+      <td><span>&#9989;</span></td>
+      <td>200</td>
     </tr>
     <tr>
       <td><a href="https://www.ncei.noaa.gov/" target="_blank">https://www.ncei.noaa.gov/</a></td>
       <td><span>&#10060;</span></td>
-      <td>HTTPSConnectionPool(host='www.ncei.noaa.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.ncei.noaa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))</td>
+      <td>('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))</td>
     </tr>
     <tr>
       <td><a href="https://www.weather.gov/" target="_blank">https://www.weather.gov/</a></td>
@@ -69,8 +69,8 @@
     </tr>
     <tr>
       <td><a href="https://coris.noaa.gov/" target="_blank">https://coris.noaa.gov/</a></td>
-      <td><span>&#10060;</span></td>
-      <td>HTTPSConnectionPool(host='coris.noaa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='coris.noaa.gov', port=443) at 0x7fd30c4b2ad0>, 'Connection to coris.noaa.gov timed out. (connect timeout=20)'))</td>
+      <td><span>&#9989;</span></td>
+      <td>200</td>
     </tr>
     <tr>
       <td><a href="https://coast.noaa.gov/digitalcoast/" target="_blank">https://coast.noaa.gov/digitalcoast/</a></td>
@@ -109,8 +109,8 @@
     </tr>
     <tr>
       <td><a href="https://www.ncdc.noaa.gov/stormevents/" target="_blank">https://www.ncdc.noaa.gov/stormevents/</a></td>
-      <td><span>&#10060;</span></td>
-      <td>HTTPSConnectionPool(host='www.ncdc.noaa.gov', port=443): Max retries exceeded with url: /stormevents/ (Caused by NewConnectionError("HTTPSConnection(host='www.ncdc.noaa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))</td>
+      <td><span>&#9989;</span></td>
+      <td>200</td>
     </tr>
     <tr>
       <td><a href="https://www.class.noaa.gov/" target="_blank">https://www.class.noaa.gov/</a></td>
@@ -124,13 +124,13 @@
     </tr>
     <tr>
       <td><a href="https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/" target="_blank">https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/</a></td>
-      <td><span>&#10060;</span></td>
-      <td>HTTPSConnectionPool(host='www.ncei.noaa.gov', port=443): Max retries exceeded with url: /data/global-historical-climatology-network-daily/ (Caused by NewConnectionError("HTTPSConnection(host='www.ncei.noaa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))</td>
+      <td><span>&#9989;</span></td>
+      <td>200</td>
     </tr>
     <tr>
       <td><a href="https://data.noaa.gov/datasetsearch/" target="_blank">https://data.noaa.gov/datasetsearch/</a></td>
-      <td><span>&#10060;</span></td>
-      <td>HTTPSConnectionPool(host='data.noaa.gov', port=443): Max retries exceeded with url: /datasetsearch/ (Caused by NewConnectionError("HTTPSConnection(host='data.noaa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))</td>
+      <td><span>&#9989;</span></td>
+      <td>200</td>
     </tr>
     <tr>
       <td><a href="https://api.weather.gov/" target="_blank">https://api.weather.gov/</a></td>
@@ -234,8 +234,8 @@
     </tr>
     <tr>
       <td><a href="https://data.nasa.gov/" target="_blank">https://data.nasa.gov/</a></td>
-      <td><span>&#9989;</span></td>
-      <td>200</td>
+      <td><span>&#10060;</span></td>
+      <td>HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7fb0e406a350>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))</td>
     </tr>
     <tr>
       <td><a href="https://epic.noaa.gov" target="_blank">https://epic.noaa.gov</a></td>
@@ -555,7 +555,7 @@
     <tr>
       <td><a href="http://www.caricoos.org/drupal/" target="_blank">http://www.caricoos.org/drupal/</a></td>
       <td><span>&#10060;</span></td>
-      <td>HTTPConnectionPool(host='www.caricoos.org', port=80): Read timed out. (read timeout=20)</td>
+      <td>HTTPConnectionPool(host='www.caricoos.org', port=80): Max retries exceeded with url: /drupal/ (Caused by ConnectTimeoutError(<HTTPConnection(host='www.caricoos.org', port=80) at 0x7fb0e406a0d0>, 'Connection to www.caricoos.org timed out. (connect timeout=20)'))</td>
     </tr>
     <tr>
       <td><a href="http://data.cencoos.org/" target="_blank">http://data.cencoos.org/</a></td>
@@ -584,8 +584,8 @@
     </tr>
     <tr>
       <td><a href="http://neracoos.org" target="_blank">http://neracoos.org</a></td>
-      <td><span>&#10060;</span></td>
-      <td>HTTPConnectionPool(host='neracoos.org', port=80): Read timed out. (read timeout=20)</td>
+      <td><span>&#9989;</span></td>
+      <td>200</td>
     </tr>
     <tr>
       <td><a href="http://oos.soest.hawaii.edu/pacioos/voyager/" target="_blank">http://oos.soest.hawaii.edu/pacioos/voyager/</a></td>
@@ -830,7 +830,7 @@
     <tr>
       <td><a href="https://webodv-egi-ace.cloud.ba.infn.it/login" target="_blank">https://webodv-egi-ace.cloud.ba.infn.it/login</a></td>
       <td><span>&#10060;</span></td>
-      <td>HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7fd30c4b2fd0>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))</td>
+      <td>HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7fb0e4069bd0>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))</td>
     </tr>
     <tr>
       <td><a href="https://reanalyses.org" target="_blank">https://reanalyses.org</a></td>
