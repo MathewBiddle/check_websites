@@ -1,4 +1,4 @@
-URL,status_2026-02-26T08:33 UTC
+URL,status_2026-02-26T09:37 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -39,7 +39,7 @@ https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,403
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
-https://data.nasa.gov/,200
+https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7f271d656490>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -65,14 +65,14 @@ https://portal.aoos.org,200
 https://data.pmel.noaa.gov/alamo/erddap/index.html,503
 https://arcticdata.io,200
 https://psl.noaa.gov/forecasts/seaice/,200
-https://argo.ucsd.edu/data/data-visualizations/,"HTTPSConnectionPool(host='argo.ucsd.edu', port=443): Max retries exceeded with url: /data/data-visualizations/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='argo.ucsd.edu', port=443) at 0x7f666bbe6490>, 'Connection to argo.ucsd.edu timed out. (connect timeout=20)'))"
+https://argo.ucsd.edu/data/data-visualizations/,200
 https://psl.noaa.gov/atomic/,200
 https://psl.noaa.gov/map/time_plot/,200
 https://portal.aodn.org.au,200
 https://www.bco-dmo.org,200
 https://www.bodc.ac.uk,200
 https://www.integratedecosystemassessment.noaa.gov/regions/california-current/california-current-marine-heatwave-tracker-blobtracker,200
-https://calcofi.org/,"HTTPSConnectionPool(host='calcofi.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='calcofi.org', port=443) at 0x7f666bbe6850>, 'Connection to calcofi.org timed out. (connect timeout=20)'))"
+https://calcofi.org/,200
 https://oceanview.pfeg.noaa.gov/products/mhw/latest,200
 https://psl.noaa.gov/ipcc/,200
 http://iridl.ldeo.columbia.edu/,200
@@ -124,7 +124,7 @@ https://mbon.ioos.us/,200
 https://psl.noaa.gov/map/,200
 https://psl.noaa.gov/marine-heatwaves/,200
 https://psl.noaa.gov/mjo/,200
-https://www.mbari.org/our-work/data-repositories/,"HTTPSConnectionPool(host='www.mbari.org', port=443): Max retries exceeded with url: /our-work/data-repositories/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mbari.org', port=443) at 0x7f666bbe5bd0>, 'Connection to www.mbari.org timed out. (connect timeout=20)'))"
+https://www.mbari.org/our-work/data-repositories/,200
 https://data.noaa.gov/onestop/,200
 https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.edu', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1032)')))"
 https://obis.org,200
@@ -147,10 +147,10 @@ https://sanctsound.ioos.us/,200
 https://coastwatch.noaa.gov/cwn/products.html,200
 https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,200
 https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml,200
-https://shorestations.ucsd.edu/about/,"HTTPSConnectionPool(host='shorestations.ucsd.edu', port=443): Max retries exceeded with url: /about/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='shorestations.ucsd.edu', port=443) at 0x7f666bbe6990>, 'Connection to shorestations.ucsd.edu timed out. (connect timeout=20)'))"
+https://shorestations.ucsd.edu/about/,200
 https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
-https://spraydata.ucsd.edu/projects/,"HTTPSConnectionPool(host='spraydata.ucsd.edu', port=443): Max retries exceeded with url: /projects/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='spraydata.ucsd.edu', port=443) at 0x7f666bbe5a90>, 'Connection to spraydata.ucsd.edu timed out. (connect timeout=20)'))"
-https://spraydata.ucsd.edu/GulfStream/,"HTTPSConnectionPool(host='spraydata.ucsd.edu', port=443): Max retries exceeded with url: /GulfStream/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='spraydata.ucsd.edu', port=443) at 0x7f666bbe7110>, 'Connection to spraydata.ucsd.edu timed out. (connect timeout=20)'))"
+https://spraydata.ucsd.edu/projects/,200
+https://spraydata.ucsd.edu/GulfStream/,200
 https://www.fisheries.noaa.gov/science-and-data,200
 https://www.socat.info/,200
 https://tidesandcurrents.noaa.gov,200
@@ -158,7 +158,7 @@ https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,200
 https://psl.noaa.gov/forecasts/seasonal/,200
 https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,200
-https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7f666bbe74d0>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
+https://webodv-egi-ace.cloud.ba.infn.it/login,"HTTPSConnectionPool(host='webodv-egi-ace.cloud.ba.infn.it', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<HTTPSConnection(host='webodv-egi-ace.cloud.ba.infn.it', port=443) at 0x7f271d656350>, 'Connection to webodv-egi-ace.cloud.ba.infn.it timed out. (connect timeout=20)'))"
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
