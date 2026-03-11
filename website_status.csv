@@ -1,6 +1,6 @@
-URL,status_2026-03-11T22:18 UTC
+URL,status_2026-03-11T23:15 UTC
 https://data.noaa.gov,200
-https://www.ncdc.noaa.gov/cdo-web/,200
+https://www.ncdc.noaa.gov/cdo-web/,"HTTPSConnectionPool(host='www.ncdc.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.weather.gov/,200
 https://www.fisheries.noaa.gov/resources/tech-and-tools,200
@@ -39,7 +39,7 @@ https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,403
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
-https://data.nasa.gov/,200
+https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7f368d706850>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -55,7 +55,7 @@ https://seagrant.noaa.gov,200
 https://researchprojects.noaa.gov,200
 https://pier.seagrant.noaa.gov,200
 https://drought.gov,200
-https://gsl.noaa.gov/fire-wx/fire-weather-testbed,200
+https://gsl.noaa.gov/fire-wx/fire-weather-testbed,"HTTPSConnectionPool(host='gsl.noaa.gov', port=443): Read timed out. (read timeout=20)"
 https://sensors.ioos.us/,200
 https://www.ncei.noaa.gov/data/,200
 https://data.pmel.noaa.gov/aclim/las/UI.html,200
@@ -162,7 +162,7 @@ https://webodv.awi.de/,200
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
-https://19january2021snapshot.epa.gov/climate-indicators/oceans_.html,200
+https://19january2021snapshot.epa.gov/climate-indicators/oceans_.html,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
 https://www.epa.gov/climate-indicators/,404
 https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends,200
