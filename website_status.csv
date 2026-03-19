@@ -1,4 +1,4 @@
-URL,status_2026-03-19T14:01 UTC
+URL,status_2026-03-19T15:42 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -151,7 +151,7 @@ https://shorestations.ucsd.edu/about/,200
 https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
 https://spraydata.ucsd.edu/projects/,200
 https://spraydata.ucsd.edu/GulfStream/,200
-https://www.fisheries.noaa.gov/science-and-data,"HTTPSConnectionPool(host='www.fisheries.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://www.fisheries.noaa.gov/science-and-data,200
 https://www.socat.info/,200
 https://tidesandcurrents.noaa.gov,200
 https://tidesandcurrents.noaa.gov/map/,200
