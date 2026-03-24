@@ -1,4 +1,4 @@
-URL,status_2026-03-24T07:47 UTC
+URL,status_2026-03-24T08:38 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -55,7 +55,7 @@ https://seagrant.noaa.gov,200
 https://researchprojects.noaa.gov,200
 https://pier.seagrant.noaa.gov,200
 https://drought.gov,200
-https://gsl.noaa.gov/fire-wx/fire-weather-testbed,200
+https://gsl.noaa.gov/fire-wx/fire-weather-testbed,522
 https://sensors.ioos.us/,200
 https://www.ncei.noaa.gov/data/,200
 https://data.pmel.noaa.gov/aclim/las/UI.html,200
