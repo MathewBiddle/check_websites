@@ -1,4 +1,4 @@
-URL,status_2026-03-24T23:21 UTC
+URL,status_2026-03-25T01:12 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -15,7 +15,7 @@ https://ioos.noaa.gov/data/access-ioos-data/,200
 https://gml.noaa.gov/data/data.php,200
 https://nsidc.org/data/explore-data,200
 https://www.ncdc.noaa.gov/stormevents/,200
-https://www.class.noaa.gov/,"HTTPSConnectionPool(host='www.class.noaa.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(""HTTPSConnection(host='www.class.noaa.gov', port=443): Failed to establish a new connection: [Errno 111] Connection refused""))"
+https://www.class.noaa.gov/,200
 https://clearinghouse.marinedebris.noaa.gov/,"HTTPSConnectionPool(host='clearinghouse.marinedebris.noaa.gov', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
 https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/,200
 https://data.noaa.gov/datasetsearch/,200
@@ -95,7 +95,7 @@ https://www.fisheries.noaa.gov/national/sustainable-fisheries/fisheries-economic
 https://github.com/AquaAuma/FishGlob_data,200
 https://data1.gfdl.noaa.gov,200
 https://www.gfdl.noaa.gov/visualization/visualizations-oceans/,200
-https://gliders.ioos.us/data/,200
+https://gliders.ioos.us/data/,"HTTPSConnectionPool(host='gliders.ioos.us', port=443): Read timed out. (read timeout=20)"
 https://www.cpc.ncep.noaa.gov/products/GODAS/,200
 https://psl.noaa.gov/data/gridded/,200
 https://hfradar.ioos.us/,200
@@ -126,11 +126,11 @@ https://psl.noaa.gov/marine-heatwaves/,200
 https://psl.noaa.gov/mjo/,200
 https://www.mbari.org/our-work/data-repositories/,200
 https://data.noaa.gov/onestop/,200
-https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.edu', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='oceanadapt.rutgers.edu', port=443) at 0x7f63981d1bd0>, 'Connection to oceanadapt.rutgers.edu timed out. (connect timeout=20)'))"
+https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.edu', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1032)')))"
 https://obis.org,200
 https://www.oceannetworks.ca,200
 https://ooinet.oceanobservatories.org/,200
-https://eos.unh.edu/ocean-process-analysis-laboratory,"HTTPSConnectionPool(host='eos.unh.edu', port=443): Max retries exceeded with url: /ocean-process-analysis-laboratory (Caused by ConnectTimeoutError(<HTTPSConnection(host='eos.unh.edu', port=443) at 0x7f63981d2710>, 'Connection to eos.unh.edu timed out. (connect timeout=20)'))"
+https://eos.unh.edu/ocean-process-analysis-laboratory,"HTTPSConnectionPool(host='eos.unh.edu', port=443): Max retries exceeded with url: /ocean-process-analysis-laboratory (Caused by ConnectTimeoutError(<HTTPSConnection(host='eos.unh.edu', port=443) at 0x7f4114e36ad0>, 'Connection to eos.unh.edu timed out. (connect timeout=20)'))"
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
 https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
@@ -151,14 +151,14 @@ https://shorestations.ucsd.edu/about/,200
 https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
 https://spraydata.ucsd.edu/projects/,200
 https://spraydata.ucsd.edu/GulfStream/,200
-https://www.fisheries.noaa.gov/science-and-data,"HTTPSConnectionPool(host='www.fisheries.noaa.gov', port=443): Read timed out. (read timeout=20)"
-https://www.socat.info/,"HTTPSConnectionPool(host='www.socat.info', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(""HTTPSConnection(host='www.socat.info', port=443): Failed to establish a new connection: [Errno 111] Connection refused""))"
+https://www.fisheries.noaa.gov/science-and-data,200
+https://www.socat.info/,200
 https://tidesandcurrents.noaa.gov,200
 https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,404
 https://psl.noaa.gov/forecasts/seasonal/,200
-https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,"HTTPSConnectionPool(host='upwell.pfeg.noaa.gov', port=443): Max retries exceeded with url: /products/PFEL/modeled/indices/upwelling/upwelling.html (Caused by NewConnectionError(""HTTPSConnection(host='upwell.pfeg.noaa.gov', port=443): Failed to establish a new connection: [Errno 111] Connection refused""))"
-https://webodv.awi.de/,"HTTPSConnectionPool(host='webodv.awi.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(""HTTPSConnection(host='webodv.awi.de', port=443): Failed to establish a new connection: [Errno 111] Connection refused""))"
+https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,200
+https://webodv.awi.de/,200
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
@@ -173,7 +173,7 @@ https://habsos.noaa.gov,200
 https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/gulf-of-mexico/,200
 http://ocgweb.marine.usf.edu/index.html,200
 https://www.nrel.gov/grid/wind-toolkit.html,200
-https://www.oceaneconomics.org/index.html,"HTTPSConnectionPool(host='www.oceaneconomics.org', port=443): Read timed out. (read timeout=20)"
+https://www.oceaneconomics.org/index.html,"HTTPSConnectionPool(host='www.oceaneconomics.org', port=443): Max retries exceeded with url: /index.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.oceaneconomics.org', port=443) at 0x7f4114e36e90>, 'Connection to www.oceaneconomics.org timed out. (connect timeout=20)'))"
 https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans/,200
 https://github.com/NOAA-PMEL/OneArgo-Mat,200
 https://giovanni.gsfc.nasa.gov/giovanni/,200
@@ -184,13 +184,13 @@ https://sanctuarywatch.ioos.us,200
 http://www.faralloninstitute.org,200
 https://www.fisheries.noaa.gov/resource/tool-app/noaa-fisheries-integrated-toolbox,200
 https://www.ncei.noaa.gov/products/world-ocean-atlas,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-https://polarwatch.noaa.gov/,"HTTPSConnectionPool(host='polarwatch.noaa.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(""HTTPSConnection(host='polarwatch.noaa.gov', port=443): Failed to establish a new connection: [Errno 111] Connection refused""))"
+https://polarwatch.noaa.gov/,200
 https://odv.awi.de/data/ocean/,200
 https://www.earthdata.nasa.gov/,403
 https://climate.esa.int/en/projects/,200
 https://goosocean.org/our-work/,200
 https://www.mercator-ocean.eu/en/bulletin/,200
-https://www.ewoce.org/data/index.html,"HTTPSConnectionPool(host='www.ewoce.org', port=443): Max retries exceeded with url: /data/index.html (Caused by NewConnectionError(""HTTPSConnection(host='www.ewoce.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused""))"
+https://www.ewoce.org/data/index.html,200
 https://www.eawag.ch/en/department/fishec/projects/,200
 https://data.ucar.edu/dataset/basis-zooplankton-data,200
 https://tidesandcurrents.noaa.gov/cora.html,200
