@@ -1,4 +1,4 @@
-URL,status_2026-04-02T15:50 UTC
+URL,status_2026-04-02T16:44 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -162,7 +162,7 @@ https://webodv.awi.de/,200
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
-https://19january2021snapshot.epa.gov/climate-indicators/oceans_.html,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+https://19january2021snapshot.epa.gov/climate-indicators/oceans_.html,200
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
 https://www.epa.gov/climate-indicators/,404
 https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends,200
