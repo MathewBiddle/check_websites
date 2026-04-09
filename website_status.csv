@@ -1,7 +1,7 @@
-URL,status_2026-04-09T21:37 UTC
+URL,status_2026-04-09T22:30 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
-https://www.ncei.noaa.gov/,403
+https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.weather.gov/,200
 https://www.fisheries.noaa.gov/resources/tech-and-tools,200
 https://tidesandcurrents.noaa.gov/,200
