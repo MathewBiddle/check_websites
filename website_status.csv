@@ -1,4 +1,4 @@
-URL,status_2026-04-11T07:42 UTC
+URL,status_2026-04-11T08:30 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -177,7 +177,7 @@ https://www.oceaneconomics.org/index.html,200
 https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans/,200
 https://github.com/NOAA-PMEL/OneArgo-Mat,200
 https://giovanni.gsfc.nasa.gov/giovanni/,200
-https://mpa-dashboard.caloos.org,200
+https://mpa-dashboard.caloos.org,"HTTPSConnectionPool(host='mpa-dashboard.caloos.org', port=443): Read timed out. (read timeout=20)"
 https://faculty.washington.edu/pmacc/LO/LiveOcean.html,200
 https://www.nanoos.org/products/j-scope/home.php,200
 https://sanctuarywatch.ioos.us,200
