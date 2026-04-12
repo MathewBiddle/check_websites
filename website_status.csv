@@ -1,4 +1,4 @@
-URL,status_2026-04-12T19:32 UTC
+URL,status_2026-04-12T20:23 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -130,7 +130,7 @@ https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.ed
 https://obis.org,200
 https://www.oceannetworks.ca,200
 https://ooinet.oceanobservatories.org/,200
-https://eos.unh.edu/ocean-process-analysis-laboratory,"HTTPSConnectionPool(host='eos.unh.edu', port=443): Max retries exceeded with url: /ocean-process-analysis-laboratory (Caused by ConnectTimeoutError(<HTTPSConnection(host='eos.unh.edu', port=443) at 0x7fdc31e0dbd0>, 'Connection to eos.unh.edu timed out. (connect timeout=20)'))"
+https://eos.unh.edu/ocean-process-analysis-laboratory,"HTTPSConnectionPool(host='eos.unh.edu', port=443): Max retries exceeded with url: /ocean-process-analysis-laboratory (Caused by ConnectTimeoutError(<HTTPSConnection(host='eos.unh.edu', port=443) at 0x7f5d74dd5bd0>, 'Connection to eos.unh.edu timed out. (connect timeout=20)'))"
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
 https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
@@ -157,7 +157,7 @@ https://tidesandcurrents.noaa.gov,200
 https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,404
 https://psl.noaa.gov/forecasts/seasonal/,200
-https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,200
+https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
 https://webodv.awi.de/,"HTTPSConnectionPool(host='webodv.awi.de', port=443): Read timed out. (read timeout=20)"
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
@@ -184,7 +184,7 @@ https://sanctuarywatch.ioos.us,200
 http://www.faralloninstitute.org,200
 https://www.fisheries.noaa.gov/resource/tool-app/noaa-fisheries-integrated-toolbox,200
 https://www.ncei.noaa.gov/products/world-ocean-atlas,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-https://polarwatch.noaa.gov/,200
+https://polarwatch.noaa.gov/,"HTTPSConnectionPool(host='polarwatch.noaa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='polarwatch.noaa.gov', port=443) at 0x7f5d74dd7750>, 'Connection to polarwatch.noaa.gov timed out. (connect timeout=20)'))"
 https://odv.awi.de/data/ocean/,200
 https://www.earthdata.nasa.gov/,403
 https://climate.esa.int/en/projects/,200
