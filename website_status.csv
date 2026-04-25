@@ -1,4 +1,4 @@
-URL,status_2026-04-25T19:37 UTC
+URL,status_2026-04-25T20:27 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -15,7 +15,7 @@ https://ioos.noaa.gov/data/access-ioos-data/,200
 https://gml.noaa.gov/data/data.php,200
 https://nsidc.org/data/explore-data,200
 https://www.ncdc.noaa.gov/stormevents/,200
-https://www.class.noaa.gov/,"HTTPSConnectionPool(host='www.aev.class.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://www.class.noaa.gov/,200
 https://clearinghouse.marinedebris.noaa.gov/,"HTTPSConnectionPool(host='clearinghouse.marinedebris.noaa.gov', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
 https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/,200
 https://data.noaa.gov/datasetsearch/,200
@@ -110,7 +110,7 @@ https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
 http://neracoos.org,200
-http://oos.soest.hawaii.edu/pacioos/voyager/,200
+http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<HTTPConnection(host='oos.soest.hawaii.edu', port=80) at 0x7f2147952580>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
 https://ioos.github.io/ioos_code_lab/content/intro.html,200
@@ -119,7 +119,7 @@ https://compliance.ioos.us/index.html,"HTTPSConnectionPool(host='compliance.ioos
 https://icoads.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.jodc.go.jp/jodcweb/ ,404
 https://archive.iwlearn.net/lme.edc.uri.edu/lme.edc.uri.edu/lme.edc.uri.edu/index.html,200
-https://github.com/NOAA-PMEL/las9,404
+https://github.com/NOAA-PMEL/las9,502
 https://mbon.ioos.us/,200
 https://psl.noaa.gov/map/,200
 https://psl.noaa.gov/marine-heatwaves/,200
@@ -130,7 +130,7 @@ https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.ed
 https://obis.org,200
 https://www.oceannetworks.ca,200
 https://ooinet.oceanobservatories.org/,200
-https://eos.unh.edu/ocean-process-analysis-laboratory,"HTTPSConnectionPool(host='eos.unh.edu', port=443): Max retries exceeded with url: /ocean-process-analysis-laboratory (Caused by ConnectTimeoutError(<HTTPSConnection(host='eos.unh.edu', port=443) at 0x7fdd7725ac10>, 'Connection to eos.unh.edu timed out. (connect timeout=20)'))"
+https://eos.unh.edu/ocean-process-analysis-laboratory,"HTTPSConnectionPool(host='eos.unh.edu', port=443): Max retries exceeded with url: /ocean-process-analysis-laboratory (Caused by ConnectTimeoutError(<HTTPSConnection(host='eos.unh.edu', port=443) at 0x7f2147991e50>, 'Connection to eos.unh.edu timed out. (connect timeout=20)'))"
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
 https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
@@ -163,7 +163,7 @@ https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,200
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
 https://19january2021snapshot.epa.gov/climate-indicators/oceans_.html,200
-https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
+https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,504
 https://www.epa.gov/climate-indicators/,404
 https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends,200
 https://www.marineregions.org/sources.php,200
@@ -173,7 +173,7 @@ https://habsos.noaa.gov,200
 https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/gulf-of-mexico/,200
 http://ocgweb.marine.usf.edu/index.html,200
 https://www.nrel.gov/grid/wind-toolkit.html,200
-https://www.oceaneconomics.org/index.html,200
+https://www.oceaneconomics.org/index.html,"HTTPSConnectionPool(host='www.oceaneconomics.org', port=443): Max retries exceeded with url: /index.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.oceaneconomics.org', port=443) at 0x7f2147992490>, 'Connection to www.oceaneconomics.org timed out. (connect timeout=20)'))"
 https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans/,200
 https://github.com/NOAA-PMEL/OneArgo-Mat,200
 https://giovanni.gsfc.nasa.gov/giovanni/,200
