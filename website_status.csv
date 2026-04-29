@@ -1,4 +1,4 @@
-URL,status_2026-04-29T05:20 UTC
+URL,status_2026-04-29T07:58 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -119,7 +119,7 @@ https://compliance.ioos.us/index.html,"HTTPSConnectionPool(host='compliance.ioos
 https://icoads.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.jodc.go.jp/jodcweb/ ,404
 https://archive.iwlearn.net/lme.edc.uri.edu/lme.edc.uri.edu/lme.edc.uri.edu/index.html,200
-https://github.com/NOAA-PMEL/las9,502
+https://github.com/NOAA-PMEL/las9,404
 https://mbon.ioos.us/,200
 https://psl.noaa.gov/map/,200
 https://psl.noaa.gov/marine-heatwaves/,200
@@ -148,7 +148,7 @@ https://coastwatch.noaa.gov/cwn/products.html,200
 https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,200
 https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml,200
 https://shorestations.ucsd.edu/about/,200
-https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
+https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,503
 https://spraydata.ucsd.edu/projects/,200
 https://spraydata.ucsd.edu/GulfStream/,200
 https://www.fisheries.noaa.gov/science-and-data,200
