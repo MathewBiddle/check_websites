@@ -1,4 +1,4 @@
-URL,status_2026-05-06T22:38 UTC
+URL,status_2026-05-06T23:39 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -68,7 +68,7 @@ https://psl.noaa.gov/forecasts/seaice/,200
 https://argo.ucsd.edu/data/data-visualizations/,200
 https://psl.noaa.gov/atomic/,200
 https://psl.noaa.gov/map/time_plot/,200
-https://portal.aodn.org.au,200
+https://portal.aodn.org.au,403
 https://www.bco-dmo.org,200
 https://www.bodc.ac.uk,200
 https://www.integratedecosystemassessment.noaa.gov/regions/california-current/california-current-marine-heatwave-tracker-blobtracker,200
