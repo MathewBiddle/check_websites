@@ -1,4 +1,4 @@
-URL,status_2026-05-17T15:49 UTC
+URL,status_2026-05-17T16:44 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -184,7 +184,7 @@ https://sanctuarywatch.ioos.us,200
 http://www.faralloninstitute.org,200
 https://www.fisheries.noaa.gov/resource/tool-app/noaa-fisheries-integrated-toolbox,200
 https://www.ncei.noaa.gov/products/world-ocean-atlas,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-https://polarwatch.noaa.gov/,200
+https://polarwatch.noaa.gov/,"HTTPSConnectionPool(host='polarwatch.noaa.gov', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"
 https://odv.awi.de/data/ocean/,200
 https://www.earthdata.nasa.gov/,403
 https://climate.esa.int/en/projects/,200
