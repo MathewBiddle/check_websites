@@ -1,4 +1,4 @@
-URL,status_2026-05-18T21:00 UTC
+URL,status_2026-05-18T22:47 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -39,7 +39,7 @@ https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,403
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
-https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7fcb17fcde50>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
+https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7f2d850d1e50>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -145,7 +145,7 @@ https://data.pmel.noaa.gov/pmel/erddap/info/index.html?page=1&itemsPerPage=1000,
 https://psl.noaa.gov/data/cruises/,200
 https://sanctsound.ioos.us/,200
 https://coastwatch.noaa.gov/cwn/products.html,200
-https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,200
+https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,202
 https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml,200
 https://shorestations.ucsd.edu/about/,200
 https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
@@ -187,7 +187,7 @@ https://www.ncei.noaa.gov/products/world-ocean-atlas,"('Connection aborted.', Re
 https://polarwatch.noaa.gov/,200
 https://odv.awi.de/data/ocean/,200
 https://www.earthdata.nasa.gov/,403
-https://climate.esa.int/en/projects/,200
+https://climate.esa.int/en/projects/,"HTTPSConnectionPool(host='climate.esa.int', port=443): Read timed out. (read timeout=20)"
 https://goosocean.org/our-work/,200
 https://www.mercator-ocean.eu/en/bulletin/,200
 https://www.ewoce.org/data/index.html,200
