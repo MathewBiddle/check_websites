@@ -1,4 +1,4 @@
-URL,status_2026-05-27T21:44 UTC
+URL,status_2026-05-27T23:08 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -48,7 +48,7 @@ https://orta.research.noaa.gov,200
 https://testbeds.noaa.gov,200
 https://qosap.research.noaa.gov,200
 https://oss.research.noaa.gov,200
-https://eeo.oar.noaa.gov,"HTTPSConnectionPool(host='www.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://eeo.oar.noaa.gov,200
 https://globalocean.noaa.gov,200
 https://cpo.noaa.gov,200
 https://seagrant.noaa.gov,200
@@ -79,7 +79,7 @@ http://iridl.ldeo.columbia.edu/,200
 https://psl.noaa.gov/gcos_wgsp/Timeseries/Plot/,200
 https://tidesandcurrents.noaa.gov/inundationdb/,200
 https://psl.noaa.gov/data/composites/,200
-https://marine.copernicus.eu,502
+https://marine.copernicus.eu,"HTTPSConnectionPool(host='marine.copernicus.eu', port=443): Read timed out. (read timeout=20)"
 https://psl.noaa.gov/data/correlation/,200
 https://apps-st.fisheries.noaa.gov/dismap/index.html,200
 https://www.pmel.noaa.gov/elnino/,200
@@ -141,11 +141,11 @@ https://psl.noaa.gov/data/oceanwrit/profile/,200
 https://www.pmel.noaa.gov/tao/drupal/disdel/,200
 https://www.ncei.noaa.gov/access/monitoring/pdo/,200
 https://psl.noaa.gov/pdo/,200
-https://data.pmel.noaa.gov/pmel/erddap/info/index.html?page=1&itemsPerPage=1000,"HTTPSConnectionPool(host='data.pmel.noaa.gov', port=443): Read timed out. (read timeout=20)"
+https://data.pmel.noaa.gov/pmel/erddap/info/index.html?page=1&itemsPerPage=1000,200
 https://psl.noaa.gov/data/cruises/,200
 https://sanctsound.ioos.us/,200
 https://coastwatch.noaa.gov/cwn/products.html,200
-https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,"HTTPSConnectionPool(host='search.usa.gov', port=443): Read timed out. (read timeout=20)"
+https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,200
 https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml,200
 https://shorestations.ucsd.edu/about/,200
 https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
