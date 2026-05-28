@@ -1,4 +1,4 @@
-URL,status_2026-05-27T23:08 UTC
+URL,status_2026-05-28T01:58 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -39,7 +39,7 @@ https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,403
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
-https://data.nasa.gov/,200
+https://data.nasa.gov/,"HTTPSConnectionPool(host='data.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.nasa.gov', port=443) at 0x7fda5f629e50>, 'Connection to data.nasa.gov timed out. (connect timeout=20)'))"
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -79,10 +79,10 @@ http://iridl.ldeo.columbia.edu/,200
 https://psl.noaa.gov/gcos_wgsp/Timeseries/Plot/,200
 https://tidesandcurrents.noaa.gov/inundationdb/,200
 https://psl.noaa.gov/data/composites/,200
-https://marine.copernicus.eu,"HTTPSConnectionPool(host='marine.copernicus.eu', port=443): Read timed out. (read timeout=20)"
+https://marine.copernicus.eu,200
 https://psl.noaa.gov/data/correlation/,200
 https://apps-st.fisheries.noaa.gov/dismap/index.html,200
-https://www.pmel.noaa.gov/elnino/,200
+https://www.pmel.noaa.gov/elnino/,404
 https://psl.noaa.gov/repository/model/compare?frequency=Monthly&event_group=ENSO+Events,200
 https://psl.noaa.gov/enso/,200
 https://psl.noaa.gov/enso/dashboard.html,200
@@ -133,7 +133,7 @@ https://ooinet.oceanobservatories.org/,200
 https://eos.unh.edu/ocean-process-analysis-laboratory,200
 https://climatedataguide.ucar.edu/climate-data/ocean,200
 https://oceancolor.gsfc.nasa.gov,200
-https://marine.copernicus.eu/access-data/ocean-visualisation-tools,"HTTPSConnectionPool(host='marine.copernicus.eu', port=443): Read timed out. (read timeout=20)"
+https://marine.copernicus.eu/access-data/ocean-visualisation-tools,200
 https://psl.noaa.gov/data/oceanwrit/map/,200
 https://psl.noaa.gov/data/oceanwrit/timeseries/,200
 https://psl.noaa.gov/data/oceanwrit/corr/,200
@@ -161,7 +161,7 @@ https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.h
 https://webodv.awi.de/,200
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,404
-https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,"HTTPSConnectionPool(host='marine.copernicus.eu', port=443): Read timed out. (read timeout=20)"
+https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
 https://19january2021snapshot.epa.gov/climate-indicators/oceans_.html,200
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
 https://www.epa.gov/climate-indicators/,404
