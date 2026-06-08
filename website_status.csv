@@ -1,5 +1,5 @@
-URL,status_2026-06-08T03:30 UTC
-https://data.noaa.gov,200
+URL,status_2026-06-08T08:43 UTC
+https://data.noaa.gov,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.weather.gov/,200
@@ -126,7 +126,7 @@ https://psl.noaa.gov/marine-heatwaves/,200
 https://psl.noaa.gov/mjo/,200
 https://www.mbari.org/our-work/data-repositories/,200
 https://data.noaa.gov/onestop/,200
-https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.edu', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='oceanadapt.rutgers.edu', port=443) at 0x7fa73761aad0>, 'Connection to oceanadapt.rutgers.edu timed out. (connect timeout=20)'))"
+https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.edu', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1032)')))"
 https://obis.org,200
 https://www.oceannetworks.ca,200
 https://ooinet.oceanobservatories.org/,200
