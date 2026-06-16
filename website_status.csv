@@ -1,4 +1,4 @@
-URL,status_2026-06-15T22:54 UTC
+URL,status_2026-06-16T00:22 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -15,7 +15,7 @@ https://ioos.noaa.gov/data/access-ioos-data/,200
 https://gml.noaa.gov/data/data.php,200
 https://nsidc.org/data/explore-data,200
 https://www.ncdc.noaa.gov/stormevents/,200
-https://www.class.noaa.gov/,"HTTPSConnectionPool(host='www.class.noaa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.class.noaa.gov', port=443) at 0x7f141f276210>, 'Connection to www.class.noaa.gov timed out. (connect timeout=20)'))"
+https://www.class.noaa.gov/,200
 https://clearinghouse.marinedebris.noaa.gov/,"HTTPSConnectionPool(host='clearinghouse.marinedebris.noaa.gov', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
 https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/,200
 https://data.noaa.gov/datasetsearch/,200
@@ -110,7 +110,7 @@ https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
 http://neracoos.org,200
-http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<HTTPConnection(host='oos.soest.hawaii.edu', port=80) at 0x7f141f232580>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
+http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<HTTPConnection(host='oos.soest.hawaii.edu', port=80) at 0x7f0e5e7ba580>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
 https://ioos.github.io/ioos_code_lab/content/intro.html,200
@@ -126,7 +126,7 @@ https://psl.noaa.gov/marine-heatwaves/,200
 https://psl.noaa.gov/mjo/,200
 https://www.mbari.org/our-work/data-repositories/,200
 https://data.noaa.gov/onestop/,200
-https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.edu', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='oceanadapt.rutgers.edu', port=443) at 0x7f141f276ad0>, 'Connection to oceanadapt.rutgers.edu timed out. (connect timeout=20)'))"
+https://oceanadapt.rutgers.edu/,"HTTPSConnectionPool(host='oceanadapt.rutgers.edu', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='oceanadapt.rutgers.edu', port=443) at 0x7f0e5e7fae90>, 'Connection to oceanadapt.rutgers.edu timed out. (connect timeout=20)'))"
 https://obis.org,200
 https://www.oceannetworks.ca,200
 https://ooinet.oceanobservatories.org/,200
@@ -162,7 +162,7 @@ https://webodv.awi.de/,200
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,"HTTPSConnectionPool(host='www.nrel.gov', port=443): Max retries exceeded with url: /gis/wind-resource-maps.html (Caused by NameResolutionError(""HTTPSConnection(host='www.nrel.gov', port=443): Failed to resolve 'www.nrel.gov' ([Errno -5] No address associated with hostname)""))"
 https://marine.copernicus.eu/access-data/ocean-monitoring-indicators,200
-https://19january2021snapshot.epa.gov/climate-indicators/oceans_.html,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+https://19january2021snapshot.epa.gov/climate-indicators/oceans_.html,200
 https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators,404
 https://www.epa.gov/climate-indicators/,404
 https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends,200
