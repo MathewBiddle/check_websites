@@ -1,4 +1,4 @@
-URL,status_2026-07-06T17:34 UTC
+URL,status_2026-07-06T19:39 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -75,7 +75,7 @@ https://www.integratedecosystemassessment.noaa.gov/regions/california-current/ca
 https://calcofi.org/,200
 https://oceanview.pfeg.noaa.gov/products/mhw/latest,200
 https://psl.noaa.gov/ipcc/,200
-http://iridl.ldeo.columbia.edu/,"HTTPConnectionPool(host='iridl.ldeo.columbia.edu', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='iridl.ldeo.columbia.edu', port=80) at 0x7f0c66d7e5d0>, 'Connection to iridl.ldeo.columbia.edu timed out. (connect timeout=20)'))"
+http://iridl.ldeo.columbia.edu/,"HTTPConnectionPool(host='iridl.ldeo.columbia.edu', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='iridl.ldeo.columbia.edu', port=80) at 0x7f7d083de5d0>, 'Connection to iridl.ldeo.columbia.edu timed out. (connect timeout=20)'))"
 https://psl.noaa.gov/gcos_wgsp/Timeseries/Plot/,200
 https://tidesandcurrents.noaa.gov/inundationdb/,200
 https://psl.noaa.gov/data/composites/,200
@@ -173,7 +173,7 @@ https://habsos.noaa.gov,200
 https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/gulf-of-mexico/,200
 http://ocgweb.marine.usf.edu/index.html,200
 https://www.nrel.gov/grid/wind-toolkit.html,"HTTPSConnectionPool(host='www.nrel.gov', port=443): Max retries exceeded with url: /grid/wind-toolkit.html (Caused by NameResolutionError(""HTTPSConnection(host='www.nrel.gov', port=443): Failed to resolve 'www.nrel.gov' ([Errno -5] No address associated with hostname)""))"
-https://www.oceaneconomics.org/index.html,200
+https://www.oceaneconomics.org/index.html,"HTTPSConnectionPool(host='www.oceaneconomics.org', port=443): Max retries exceeded with url: /index.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.oceaneconomics.org', port=443) at 0x7f7d083de350>, 'Connection to www.oceaneconomics.org timed out. (connect timeout=20)'))"
 https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans/,200
 https://github.com/NOAA-PMEL/OneArgo-Mat,200
 https://giovanni.gsfc.nasa.gov/giovanni/,200
