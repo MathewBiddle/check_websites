@@ -1,4 +1,4 @@
-URL,status_2026-07-28T01:27 UTC
+URL,status_2026-07-28T04:53 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -44,7 +44,7 @@ https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
 https://oeab.noaa.gov,200
-https://orta.research.noaa.gov,500
+https://orta.research.noaa.gov,200
 https://testbeds.noaa.gov,200
 https://qosap.research.noaa.gov,200
 https://oss.research.noaa.gov,200
@@ -157,7 +157,7 @@ https://tidesandcurrents.noaa.gov,200
 https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,404
 https://psl.noaa.gov/forecasts/seasonal/,200
-https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,200
+https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html,"HTTPSConnectionPool(host='upwell.pfeg.noaa.gov', port=443): Max retries exceeded with url: /products/PFEL/modeled/indices/upwelling/upwelling.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='upwell.pfeg.noaa.gov', port=443) at 0x7f19ef87a710>, 'Connection to upwell.pfeg.noaa.gov timed out. (connect timeout=20)'))"
 https://webodv.awi.de/,200
 https://reanalyses.org,200
 https://www.nrel.gov/gis/wind-resource-maps.html,"HTTPSConnectionPool(host='www.nrel.gov', port=443): Max retries exceeded with url: /gis/wind-resource-maps.html (Caused by NameResolutionError(""HTTPSConnection(host='www.nrel.gov', port=443): Failed to resolve 'www.nrel.gov' ([Errno -5] No address associated with hostname)""))"
