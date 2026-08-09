@@ -1,4 +1,4 @@
-URL,status_2026-08-09T17:20 UTC
+URL,status_2026-08-09T18:22 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -25,7 +25,7 @@ https://www.nesdis.noaa.gov/data-research-services/data-collections,200
 https://science.nasa.gov/earth/,200
 https://science.nasa.gov/earth-science/,200
 https://www.earthdata.nasa.gov/about/esdis,403
-https://science.gsfc.nasa.gov/sci/projects,200
+https://science.gsfc.nasa.gov/sci/projects,"HTTPSConnectionPool(host='science.gsfc.nasa.gov', port=443): Max retries exceeded with url: /sci/projects (Caused by NewConnectionError(""HTTPSConnection(host='science.gsfc.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable""))"
 https://www.nasa.gov/news-release/nasa-accelerates-space-exploration-earth-science-for-all-in-2024/,200
 https://www.earthdata.nasa.gov/data/projects,403
 https://www.earthdata.nasa.gov/about/esdis/eosdis,403
@@ -48,20 +48,20 @@ https://orta.research.noaa.gov,200
 https://testbeds.noaa.gov,200
 https://qosap.research.noaa.gov,200
 https://oss.research.noaa.gov,200
-https://eeo.oar.noaa.gov,200
+https://eeo.oar.noaa.gov,504
 https://globalocean.noaa.gov,200
 https://cpo.noaa.gov,200
 https://seagrant.noaa.gov,200
 https://researchprojects.noaa.gov,200
 https://pier.seagrant.noaa.gov,200
-https://drought.gov,200
+https://drought.gov,"HTTPSConnectionPool(host='drought.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='drought.gov', port=443) at 0x7fd84a23a490>, 'Connection to drought.gov timed out. (connect timeout=20)'))"
 https://gsl.noaa.gov/fire-wx/fire-weather-testbed,200
 https://sensors.ioos.us/,200
 https://www.ncei.noaa.gov/data/,200
 https://data.pmel.noaa.gov/aclim/las/UI.html,200
-http://portal.aoos.org/,502
-https://portal.atn.ioos.us/,502
-https://portal.aoos.org,502
+http://portal.aoos.org/,200
+https://portal.atn.ioos.us/,200
+https://portal.aoos.org,200
 https://data.pmel.noaa.gov/alamo/erddap/index.html,503
 https://arcticdata.io,200
 https://psl.noaa.gov/forecasts/seaice/,200
