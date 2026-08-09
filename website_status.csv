@@ -1,4 +1,4 @@
-URL,status_2026-08-09T16:20 UTC
+URL,status_2026-08-09T17:20 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -33,13 +33,13 @@ https://science.nasa.gov/earth/data/,200
 https://science.nasa.gov/earth/data/climate-data/,200
 https://science.nasa.gov/earth-science/missions/earth-system-observatory/,200
 https://github.com/opengeos/NASA-Earth-Data,200
-https://podaac.jpl.nasa.gov/,"HTTPSConnectionPool(host='podaac.jpl.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='podaac.jpl.nasa.gov', port=443) at 0x7fb0accde5d0>, 'Connection to podaac.jpl.nasa.gov timed out. (connect timeout=20)'))"
+https://podaac.jpl.nasa.gov/,"HTTPSConnectionPool(host='podaac.jpl.nasa.gov', port=443): Read timed out. (read timeout=20)"
 https://oceancolor.gsfc.nasa.gov/,403
 https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
 https://www.earthdata.nasa.gov/data/tools/soto,403
 https://www.earthdata.nasa.gov/about/competitive-programs/access/virtual-oceanography-data-center,403
-https://data.nasa.gov/,500
+https://data.nasa.gov/,503
 https://epic.noaa.gov,200
 https://adp.noaa.gov,200
 https://ci.noaa.gov,200
@@ -59,9 +59,9 @@ https://gsl.noaa.gov/fire-wx/fire-weather-testbed,200
 https://sensors.ioos.us/,200
 https://www.ncei.noaa.gov/data/,200
 https://data.pmel.noaa.gov/aclim/las/UI.html,200
-http://portal.aoos.org/,200
-https://portal.atn.ioos.us/,200
-https://portal.aoos.org,200
+http://portal.aoos.org/,502
+https://portal.atn.ioos.us/,502
+https://portal.aoos.org,502
 https://data.pmel.noaa.gov/alamo/erddap/index.html,503
 https://arcticdata.io,200
 https://psl.noaa.gov/forecasts/seaice/,200
@@ -178,7 +178,7 @@ https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regiona
 https://github.com/NOAA-PMEL/OneArgo-Mat,200
 https://giovanni.gsfc.nasa.gov/giovanni/,200
 https://mpa-dashboard.caloos.org,200
-https://faculty.washington.edu/pmacc/LO/LiveOcean.html,502
+https://faculty.washington.edu/pmacc/LO/LiveOcean.html,200
 https://www.nanoos.org/products/j-scope/home.php,200
 https://sanctuarywatch.ioos.us,200
 http://www.faralloninstitute.org,200
