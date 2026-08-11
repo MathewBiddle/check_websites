@@ -1,11 +1,11 @@
-URL,status_2026-08-11T16:44 UTC
+URL,status_2026-08-11T17:47 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.weather.gov/,200
 https://www.fisheries.noaa.gov/resources/tech-and-tools,200
 https://tidesandcurrents.noaa.gov/,200
-https://coastwatch.noaa.gov/,200
+https://coastwatch.noaa.gov/,"HTTPSConnectionPool(host='coastwatch.noaa.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(""HTTPSConnection(host='coastwatch.noaa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable""))"
 https://coris.noaa.gov/,200
 https://coast.noaa.gov/digitalcoast/,200
 https://registry.opendata.aws/noaa-swdi/,200
@@ -33,7 +33,7 @@ https://science.nasa.gov/earth/data/,200
 https://science.nasa.gov/earth/data/climate-data/,200
 https://science.nasa.gov/earth-science/missions/earth-system-observatory/,200
 https://github.com/opengeos/NASA-Earth-Data,200
-https://podaac.jpl.nasa.gov/,"HTTPSConnectionPool(host='podaac.jpl.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='podaac.jpl.nasa.gov', port=443) at 0x7fbccb2e6710>, 'Connection to podaac.jpl.nasa.gov timed out. (connect timeout=20)'))"
+https://podaac.jpl.nasa.gov/,200
 https://oceancolor.gsfc.nasa.gov/,403
 https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
@@ -54,7 +54,7 @@ https://cpo.noaa.gov,200
 https://seagrant.noaa.gov,200
 https://researchprojects.noaa.gov,200
 https://pier.seagrant.noaa.gov,200
-https://drought.gov,"HTTPSConnectionPool(host='drought.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='drought.gov', port=443) at 0x7fbccb2e6490>, 'Connection to drought.gov timed out. (connect timeout=20)'))"
+https://drought.gov,200
 https://gsl.noaa.gov/fire-wx/fire-weather-testbed,200
 https://sensors.ioos.us/,200
 https://www.ncei.noaa.gov/data/,200
@@ -173,7 +173,7 @@ https://habsos.noaa.gov,200
 https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/gulf-of-mexico/,200
 http://ocgweb.marine.usf.edu/index.html,200
 https://www.nrel.gov/grid/wind-toolkit.html,"HTTPSConnectionPool(host='www.nrel.gov', port=443): Max retries exceeded with url: /grid/wind-toolkit.html (Caused by NameResolutionError(""HTTPSConnection(host='www.nrel.gov', port=443): Failed to resolve 'www.nrel.gov' ([Errno -5] No address associated with hostname)""))"
-https://www.oceaneconomics.org/index.html,"HTTPSConnectionPool(host='www.oceaneconomics.org', port=443): Max retries exceeded with url: /index.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.oceaneconomics.org', port=443) at 0x7fbccb2e5f90>, 'Connection to www.oceaneconomics.org timed out. (connect timeout=20)'))"
+https://www.oceaneconomics.org/index.html,200
 https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans/,200
 https://github.com/NOAA-PMEL/OneArgo-Mat,200
 https://giovanni.gsfc.nasa.gov/giovanni/,200
@@ -184,7 +184,7 @@ https://sanctuarywatch.ioos.us,200
 http://www.faralloninstitute.org,200
 https://www.fisheries.noaa.gov/resource/tool-app/noaa-fisheries-integrated-toolbox,200
 https://www.ncei.noaa.gov/products/world-ocean-atlas,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-https://polarwatch.noaa.gov/,503
+https://polarwatch.noaa.gov/,200
 https://odv.awi.de/data/ocean/,200
 https://www.earthdata.nasa.gov/,403
 https://climate.esa.int/en/projects/,200
