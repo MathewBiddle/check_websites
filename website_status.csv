@@ -1,4 +1,4 @@
-URL,status_2026-09-26T18:49 UTC
+URL,status_2026-09-26T21:42 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -94,7 +94,7 @@ https://psl.noaa.gov/repository/facts/,200
 https://www.fisheries.noaa.gov/national/sustainable-fisheries/fisheries-economics-united-states,200
 https://github.com/AquaAuma/FishGlob_data,200
 https://data1.gfdl.noaa.gov,"HTTPSConnectionPool(host='data1.gfdl.noaa.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(""HTTPSConnection(host='data1.gfdl.noaa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable""))"
-https://www.gfdl.noaa.gov/visualization/visualizations-oceans/,"HTTPSConnectionPool(host='www.gfdl.noaa.gov', port=443): Max retries exceeded with url: /visualization/visualizations-oceans/ (Caused by NewConnectionError(""HTTPSConnection(host='www.gfdl.noaa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable""))"
+https://www.gfdl.noaa.gov/visualization/visualizations-oceans/,200
 https://gliders.ioos.us/data/,200
 https://www.cpc.ncep.noaa.gov/products/GODAS/,200
 https://psl.noaa.gov/data/gridded/,200
@@ -110,7 +110,7 @@ https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
 http://neracoos.org,200
-http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<HTTPConnection(host='oos.soest.hawaii.edu', port=80) at 0x7fe0c71ae9c0>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
+http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<HTTPConnection(host='oos.soest.hawaii.edu', port=80) at 0x7fc4a2c97240>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
 https://ioos.github.io/ioos_code_lab/content/intro.html,200
