@@ -1,4 +1,4 @@
-URL,status_2026-09-26T21:42 UTC
+URL,status_2026-09-27T00:01 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -33,7 +33,7 @@ https://science.nasa.gov/earth/data/,200
 https://science.nasa.gov/earth/data/climate-data/,200
 https://science.nasa.gov/earth-science/missions/earth-system-observatory/,200
 https://github.com/opengeos/NASA-Earth-Data,200
-https://podaac.jpl.nasa.gov/,"HTTPSConnectionPool(host='podaac.jpl.nasa.gov', port=443): Read timed out. (read timeout=20)"
+https://podaac.jpl.nasa.gov/,200
 https://oceancolor.gsfc.nasa.gov/,403
 https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
@@ -93,7 +93,7 @@ https://psl.noaa.gov/data/animation/,200
 https://psl.noaa.gov/repository/facts/,200
 https://www.fisheries.noaa.gov/national/sustainable-fisheries/fisheries-economics-united-states,200
 https://github.com/AquaAuma/FishGlob_data,200
-https://data1.gfdl.noaa.gov,"HTTPSConnectionPool(host='data1.gfdl.noaa.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(""HTTPSConnection(host='data1.gfdl.noaa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable""))"
+https://data1.gfdl.noaa.gov,200
 https://www.gfdl.noaa.gov/visualization/visualizations-oceans/,200
 https://gliders.ioos.us/data/,200
 https://www.cpc.ncep.noaa.gov/products/GODAS/,200
@@ -110,7 +110,7 @@ https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
 http://neracoos.org,200
-http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<HTTPConnection(host='oos.soest.hawaii.edu', port=80) at 0x7fc4a2c97240>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
+http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<HTTPConnection(host='oos.soest.hawaii.edu', port=80) at 0x7f0a6cff7240>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
 https://ioos.github.io/ioos_code_lab/content/intro.html,200
@@ -152,7 +152,7 @@ https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
 https://spraydata.ucsd.edu/projects/,200
 https://spraydata.ucsd.edu/GulfStream/,200
 https://www.fisheries.noaa.gov/science-and-data,200
-https://www.socat.info/,200
+https://www.socat.info/,503
 https://tidesandcurrents.noaa.gov,200
 https://tidesandcurrents.noaa.gov/map/,200
 https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics,404
@@ -192,6 +192,6 @@ https://goosocean.org/our-work/,200
 https://www.mercator-ocean.eu/en/bulletin/,200
 https://www.ewoce.org/data/index.html,200
 https://www.eawag.ch/en/department/fishec/projects/,200
-https://data.ucar.edu/dataset/basis-zooplankton-data,200
+https://data.ucar.edu/dataset/basis-zooplankton-data,"HTTPSConnectionPool(host='data.ucar.edu', port=443): Max retries exceeded with url: /dataset/basis-zooplankton-data (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.ucar.edu', port=443) at 0x7f0a6d062990>, 'Connection to data.ucar.edu timed out. (connect timeout=20)'))"
 https://tidesandcurrents.noaa.gov/cora.html,200
 https://oceanobservatories.org/data/,200
