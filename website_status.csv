@@ -1,4 +1,4 @@
-URL,status_2026-10-02T00:18 UTC
+URL,status_2026-10-02T06:24 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -33,7 +33,7 @@ https://science.nasa.gov/earth/data/,200
 https://science.nasa.gov/earth/data/climate-data/,200
 https://science.nasa.gov/earth-science/missions/earth-system-observatory/,200
 https://github.com/opengeos/NASA-Earth-Data,200
-https://podaac.jpl.nasa.gov/,"HTTPSConnectionPool(host='podaac.jpl.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='podaac.jpl.nasa.gov', port=443) at 0x7fc4864925d0>, 'Connection to podaac.jpl.nasa.gov timed out. (connect timeout=20)'))"
+https://podaac.jpl.nasa.gov/,"HTTPSConnectionPool(host='podaac.jpl.nasa.gov', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='podaac.jpl.nasa.gov', port=443) at 0x7f932d7ca5d0>, 'Connection to podaac.jpl.nasa.gov timed out. (connect timeout=20)'))"
 https://oceancolor.gsfc.nasa.gov/,403
 https://swot.jpl.nasa.gov/,200
 https://seabass.gsfc.nasa.gov/,200
@@ -110,7 +110,7 @@ https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
 http://neracoos.org,200
-http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<HTTPConnection(host='oos.soest.hawaii.edu', port=80) at 0x7fc486842580>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
+http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<HTTPConnection(host='oos.soest.hawaii.edu', port=80) at 0x7f932db82580>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
 https://ioos.github.io/ioos_code_lab/content/intro.html,200
@@ -119,7 +119,7 @@ https://compliance.ioos.us/index.html,200
 https://icoads.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 https://www.jodc.go.jp/jodcweb/ ,404
 https://archive.iwlearn.net/lme.edc.uri.edu/lme.edc.uri.edu/lme.edc.uri.edu/index.html,200
-https://github.com/NOAA-PMEL/las9,404
+https://github.com/NOAA-PMEL/las9,504
 https://mbon.ioos.us/,200
 https://psl.noaa.gov/map/,200
 https://psl.noaa.gov/marine-heatwaves/,200
