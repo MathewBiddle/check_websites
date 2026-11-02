@@ -1,4 +1,4 @@
-URL,status_2026-11-01T23:16 UTC
+URL,status_2026-11-02T03:14 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -79,7 +79,7 @@ http://iridl.ldeo.columbia.edu/,200
 https://psl.noaa.gov/gcos_wgsp/Timeseries/Plot/,200
 https://tidesandcurrents.noaa.gov/inundationdb/,200
 https://psl.noaa.gov/data/composites/,200
-https://marine.copernicus.eu,"HTTPSConnectionPool(host='marine.copernicus.eu', port=443): Read timed out. (read timeout=20)"
+https://marine.copernicus.eu,200
 https://psl.noaa.gov/data/correlation/,200
 https://apps-st.fisheries.noaa.gov/dismap/index.html,200
 https://www.pmel.noaa.gov/elnino/,200
@@ -110,7 +110,7 @@ https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
 http://neracoos.org,200
-http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<HTTPConnection(host='oos.soest.hawaii.edu', port=80) at 0x74c8ac67bdf0>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
+http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<HTTPConnection(host='oos.soest.hawaii.edu', port=80) at 0x74eb9821bdf0>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
 https://ioos.github.io/ioos_code_lab/content/intro.html,200
@@ -190,7 +190,7 @@ https://www.earthdata.nasa.gov/,403
 https://climate.esa.int/en/projects/,200
 https://goosocean.org/our-work/,200
 https://www.mercator-ocean.eu/en/bulletin/,200
-https://www.ewoce.org/data/index.html,"HTTPSConnectionPool(host='www.ewoce.org', port=443): Max retries exceeded with url: /data/index.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ewoce.org', port=443) at 0x74c8ac2de850>, 'Connection to www.ewoce.org timed out. (connect timeout=20)'))"
+https://www.ewoce.org/data/index.html,"HTTPSConnectionPool(host='www.ewoce.org', port=443): Max retries exceeded with url: /data/index.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ewoce.org', port=443) at 0x74eb97e82490>, 'Connection to www.ewoce.org timed out. (connect timeout=20)'))"
 https://www.eawag.ch/en/department/fishec/projects/,200
 https://data.ucar.edu/dataset/basis-zooplankton-data,200
 https://tidesandcurrents.noaa.gov/cora.html,200
