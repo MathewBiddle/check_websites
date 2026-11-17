@@ -1,4 +1,4 @@
-URL,status_2026-11-17T13:57 UTC
+URL,status_2026-11-17T21:58 UTC
 https://data.noaa.gov,200
 https://www.ncdc.noaa.gov/cdo-web/,200
 https://www.ncei.noaa.gov/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -10,7 +10,7 @@ https://coris.noaa.gov/,500
 https://coast.noaa.gov/digitalcoast/,200
 https://registry.opendata.aws/noaa-swdi/,200
 https://www.nhc.noaa.gov/data/,200
-https://nomads.ncep.noaa.gov/,302
+https://nomads.ncep.noaa.gov/,200
 https://ioos.noaa.gov/data/access-ioos-data/,200
 https://gml.noaa.gov/data/data.php,200
 https://nsidc.org/data/explore-data,200
@@ -110,7 +110,7 @@ https://seagull.glos.org/landing,200
 https://maracoos.org/,200
 http://nvs.nanoos.org/,200
 http://neracoos.org,200
-http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by ConnectTimeoutError(<HTTPConnection(host='oos.soest.hawaii.edu', port=80) at 0x7a2f6059ecf0>, 'Connection to oos.soest.hawaii.edu timed out. (connect timeout=20)'))"
+http://oos.soest.hawaii.edu/pacioos/voyager/,"HTTPConnectionPool(host='oos.soest.hawaii.edu', port=80): Max retries exceeded with url: /pacioos/voyager/ (Caused by NewConnectionError(""HTTPConnection(host='oos.soest.hawaii.edu', port=80): Failed to establish a new connection: [Errno 113] No route to host""))"
 https://sccoos.org/overview/,403
 http://portal.secoora.org/,200
 https://ioos.github.io/ioos_code_lab/content/intro.html,200
@@ -145,12 +145,12 @@ https://data.pmel.noaa.gov/pmel/erddap/info/index.html?page=1&itemsPerPage=1000,
 https://psl.noaa.gov/data/cruises/,200
 https://sanctsound.ioos.us/,200
 https://coastwatch.noaa.gov/cwn/products.html,200
-https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,200
+https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ,202
 https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml,200
 https://shorestations.ucsd.edu/about/,200
 https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html,404
 https://spraydata.ucsd.edu/projects/,200
-https://spraydata.ucsd.edu/GulfStream/,"HTTPConnectionPool(host='spraydata.ucsd.edu', port=80): Max retries exceeded with url: /projects/gs/ (Caused by ConnectTimeoutError(<HTTPConnection(host='spraydata.ucsd.edu', port=80) at 0x7a2f6059ebe0>, 'Connection to spraydata.ucsd.edu timed out. (connect timeout=20)'))"
+https://spraydata.ucsd.edu/GulfStream/,"HTTPConnectionPool(host='spraydata.ucsd.edu', port=80): Max retries exceeded with url: /projects/gs/ (Caused by ConnectTimeoutError(<HTTPConnection(host='spraydata.ucsd.edu', port=80) at 0x731dd331ebe0>, 'Connection to spraydata.ucsd.edu timed out. (connect timeout=20)'))"
 https://www.fisheries.noaa.gov/science-and-data,200
 https://www.socat.info/,200
 https://tidesandcurrents.noaa.gov,200
